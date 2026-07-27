@@ -13,10 +13,10 @@ const config: Config = {
   },
 
   url: 'https://q761070659.github.io',
-  baseUrl: '/NongStoveIgniter/',
+  baseUrl: '/NSG/',
 
   organizationName: 'q761070659',
-  projectName: 'NongStoveIgniter',
+  projectName: 'NSG',
 
   onBrokenLinks: 'throw',
 

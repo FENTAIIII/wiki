@@ -1,0 +1,46 @@
+---
+title: 工作站配方
+sidebar_position: 4
+---
+
+import {RecipeBrowser} from '@site/src/components/Recipe';
+
+本页配方全部从插件 Java 源码与配置文件提取，界面为对应工作站的真实 GUI，物品叠加在真实槽位上。
+
+## 小木桶发酵
+
+2×2 输入，右侧单一产出槽。多数配方需要罐子等容器作为输入之一。
+
+<RecipeBrowser type="cask" plain />
+
+## 烹饪锅
+
+2×3 输入，右上为产出槽，右下为容器槽（碗、瓶等）。
+
+<RecipeBrowser type="cooking_pot" plain />
+
+## 砧板切割
+
+上方是刀具槽，下方是待切割物品，右侧两格为产出槽。刀具槽展示该配方可用的工具类型：小刀类配方会轮播全部五种小刀，斧和锹类配方以铁质工具示意，同类工具都能用。少数配方产出多于两项，多出的部分列在界面下方。
+
+<RecipeBrowser type="cutting_board" plain />
+
+## 煎锅
+
+左上为单一输入槽，右侧为产出槽。
+
+<RecipeBrowser type="skillet" plain />
+
+## 木盆踩踏
+
+2×2 输入，右上为产出槽。右侧下方是液体区而非物品槽，展示液体名称与每个材料的产出容量；每个材料需踩踏固定次数才会转化。取出液体用的容器槽在游戏界面第三行，本页贴图只到第二行，因此容器在界面下方单独标注。部分配方会直接产出物品而不是液体。
+
+<RecipeBrowser type="stomping_basin" plain />
+
+## 捕蟹笼
+
+捕蟹笼不是固定输入输出的配方，而是按所在群系匹配产出池，再从加权池中随机抽取。第 5 格为饵料槽：需要饵料的池每次收获消耗 1 个饵料，无饵料池不消耗物品。
+
+放置条件、产出节奏与群系加速见[捕蟹与海鲜](/farming/crabbing#捕蟹笼)。
+
+<RecipeBrowser type="crab_trap" plain />

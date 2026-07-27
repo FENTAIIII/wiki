@@ -1,0 +1,250 @@
+---
+slug: /admin/recipes-yml
+title: recipes.yml 配方文件
+sidebar_position: 3
+---
+
+# recipes.yml 配方文件
+
+`plugins/NongStoveIgniter/recipes.yml` 是五类烹饪设备配方的**唯一权威来源**。用 `/ng <设备> gui` 在游戏内编辑，也可以直接手写这个文件。
+
+:::warning
+这个文件采用**严格白名单校验**：任何一处出错都会导致整份文件加载失败，运行时保留旧配方快照。写完务必执行 `/ng reload` 检查诊断输出。
+:::
+
+## 骨架
+
+```yaml
+schema-version: 1
+recipes:
+  cooking-pot: {}
+  skillet: {}
+  cutting-board: {}
+  cask: {}
+  stomping-basin: {}
+```
+
+顶层**只允许** `schema-version` 与 `recipes` 两个键，`schema-version` 目前只能是 `1`。多余的键会报「未知字段」。
+
+每个分区下是 `配方ID: {字段...}` 的映射。
+
+YAML 解析限制：禁止重复键、别名上限 50、嵌套深度上限 40、字符数上限 1,000,000。
+
+## 物品对象
+
+所有输入、输出、容器、工具位置都是一个物品对象：
+
+```yaml
+stack: {...}      # 必填
+match: {...}      # 输入必填，输出禁止
+chance: 1.0       # 仅砧板 outputs
+```
+
+### stack 的四种写法
+
+**CraftEngine 紧凑格式**（推荐，最易读）：
+
+```yaml
+stack: {id: default:tomato, amount: 1}
+```
+
+`id` **不能**以 `minecraft:` 开头。
+
+**原版简单格式**：
+
+```yaml
+stack: {type: APPLE, amount: 1}
+```
+
+**MMOItems 短格式**（不能与其他键共存）：
+
+```yaml
+stack:
+  mmoitems:
+    type: MATERIAL
+    id: MY_ITEM
+    amount: 1
+```
+
+`type`、`id`、`amount` 都必填，`amount` 范围 1–64。
+
+**完整 Bukkit ItemStack 序列化**：带药水、附魔、自定义名称、Lore 或 PDC 时自动使用这种形式。
+
+`stack` 不能是 AIR。
+
+### match 匹配语义
+
+| kind | 附加字段 | 说明 |
+| --- | --- | --- |
+| `exact` | 无 | 精确物品比对 |
+| `craft-engine-id` | `id` | 按 CraftEngine 物品 id 匹配 |
+| `custom-fishing-id` | `id` | 按 CustomFishing 物品 id 匹配 |
+| `mmoitems` | `type` + `id` | 按 MMOItems 类型与 id 匹配 |
+
+规则：
+
+- **输入位置**（`input`、`ingredients` 的 `choices`、`container`、`tools`）**必须**声明 `match`。唯一例外是 `stack` 用了 MMOItems 短格式时会自动推导。
+- **输出位置**（`output`、`direct-output`、`outputs`）**禁止**声明 `match`。
+
+### ingredients 结构
+
+烹饪锅、小木桶、木盆用「材料组」列表。每组的 `choices` 是可互相替换的等价物品：
+
+```yaml
+ingredients:
+  - choices:
+      - stack: {id: default:red_grapes, amount: 1}
+        match: {kind: craft-engine-id, id: default:red_grapes}
+      - stack: {id: default:green_grapes, amount: 1}
+        match: {kind: craft-engine-id, id: default:green_grapes}
+```
+
+至少要有 1 个材料组，每组 `choices` 不能为空。
+
+## 各设备字段
+
+### cooking-pot
+
+| 字段 | 必填 | 范围 |
+| --- | --- | --- |
+| `name` | 是 | 非空字符串 |
+| `ingredients` | 是 | 材料组列表 |
+| `container` | 否 | `{choices: [...]}` |
+| `output` | 是 | 物品（无 match）|
+| `seconds` | 是 | 1–600 |
+| `experience` | 是 | 0.0–100.0 |
+| `return-container` | 是 | boolean |
+| `gold-only` | 是 | boolean，是否仅金锅可做 |
+
+### skillet
+
+`name`、`input`、`output`、`seconds`（1–600）、`experience`（0–100），全部必填。
+
+### cutting-board
+
+| 字段 | 必填 | 说明 |
+| --- | --- | --- |
+| `name` | 是 | |
+| `tool` | 否 | `knife`（默认）/ `axe` / `shovel` / `none` |
+| `tools` | 否 | 指定工具列表，最多 6 项，需 `match` |
+| `input` | 是 | 需 `match` |
+| `outputs` | 是 | 非空列表，每项含 `chance`（0.0–1.0，必填）|
+
+`tool: none` 时 `tools` **至少要有 1 项**，否则报错。`tool` 类别与 `tools` 列表是「或」关系。
+
+### cask
+
+`name`、`ingredients`、`output`、`seconds`（1–600）、`experience`（0–100），全部必填。
+
+### stomping-basin
+
+| 字段 | 必填 | 范围 |
+| --- | --- | --- |
+| `name` | 是 | 非空字符串 |
+| `ingredients` | 是 | 材料组列表 |
+| `container` | 是 | 单个物品，需 `match` |
+| `output` | 是 | 物品 |
+| `direct-output` | **否** | 唯一可选的物品字段 |
+| `stomps-per-item` | 是 | 1–200 |
+| `mb-per-item` | 是 | 1–1000 |
+| `bottle-mb` | 是 | 1–1000 |
+| `liquid-enabled` | 是 | boolean |
+| `liquid-item-prefix` | 是 | 非空字符串 |
+| `liquid-name` | 是 | 非空字符串 |
+
+## 完整示例
+
+```yaml
+schema-version: 1
+recipes:
+  cooking-pot:
+    tomato-soup:
+      name: 番茄汤
+      ingredients:
+        - choices:
+            - stack: {id: default:tomato, amount: 1}
+              match: {kind: craft-engine-id, id: default:tomato}
+      container:
+        choices:
+          - stack: {type: BOWL, amount: 1}
+            match: {kind: exact}
+      output:
+        stack: {id: default:vegetable_soup, amount: 1}
+      seconds: 20
+      experience: 1.0
+      return-container: false
+      gold-only: false
+
+  skillet:
+    fried-bacon:
+      name: 煎培根
+      input:
+        stack: {id: default:bacon, amount: 1}
+        match: {kind: craft-engine-id, id: default:bacon}
+      output:
+        stack: {id: default:cooked_bacon, amount: 1}
+      seconds: 10
+      experience: 0.35
+
+  cutting-board:
+    fd-cut-cabbage:
+      name: 切卷心菜
+      tool: knife
+      input:
+        stack: {id: default:cabbage, amount: 1}
+        match: {kind: craft-engine-id, id: default:cabbage}
+      outputs:
+        - stack: {id: default:cabbage_leaf, amount: 2}
+          chance: 1.0
+
+  cask:
+    apple-cider:
+      name: 苹果酒
+      ingredients:
+        - choices:
+            - stack: {type: APPLE, amount: 1}
+              match: {kind: exact}
+      output:
+        stack: {id: default:apple_cider, amount: 1}
+      seconds: 60
+      experience: 2.0
+
+  stomping-basin:
+    grape-juice:
+      name: 葡萄汁
+      ingredients:
+        - choices:
+            - stack: {id: default:red_grapes, amount: 1}
+              match: {kind: craft-engine-id, id: default:red_grapes}
+      container:
+        stack: {type: GLASS_BOTTLE, amount: 1}
+        match: {kind: exact}
+      output:
+        stack: {id: default:red_grape_juice, amount: 1}
+      stomps-per-item: 5
+      mb-per-item: 125
+      bottle-mb: 500
+      liquid-enabled: true
+      liquid-item-prefix: default:wp_red
+      liquid-name: 葡萄汁
+```
+
+## 可选扩展的处理
+
+配方引用 `xienong:*` 或 `endersdelight:*` 未注册物品时，插件会**静默跳过**该条配方而不报错，源文件不被修改。扩展装回来后 `/ng reload` 会自动恢复这些配方。
+
+`default:*` 与其他命名空间的缺失物品仍然是**严格错误**，防止核心配置的拼写问题被掩盖。
+
+材料组里只要还有可用的替代选项，配方就会保留。
+
+## 写回行为
+
+用 GUI 编辑配方时插件会重新序列化整个文件，格式优先级：
+
+MMOItems 短格式 → CraftEngine 紧凑格式 `{id, amount}` → 原版简单格式 `{type, amount}` → 完整序列化。
+
+如果 `match` 与 MMOItems `stack` 一致（隐式匹配），`match` 节点会被省略。砧板 `outputs` 的 `chance` 会并入物品 map。
+
+:::note
+这意味着手写的注释和格式在 GUI 编辑后会丢失。想保留注释就只手工维护，不要混用 GUI 编辑。
+:::

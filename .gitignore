@@ -1,0 +1,48 @@
+# ---------------------------------------------------------------
+# 农夫乐事 Wiki — 仓库根 .gitignore
+#
+# 策略：仓库只收「站点源码 + 已烘焙产物」。
+# CraftEngine 配置（configuration/）与原版 assets 不上传：
+#   - configuration 不公开
+#   - assets 体积大且非本项目内容
+# 因此 gen:data / build-gui-assets / build-brand-assets 只在本地运行，
+# 它们的产出必须入库，否则 CI 无法构建。
+# ---------------------------------------------------------------
+
+# 依赖与构建产物
+node_modules/
+site/build/
+site/.docusaurus/
+site/.cache-loader/
+
+# ------------------------- 不公开的数据源 -------------------------
+# CraftEngine 配置（含 configuration，不公开）
+ce配置/
+蟹农和末地乐事/
+山茶花/
+
+# 原版游戏 assets（体积大、非本项目内容）
+assets/
+
+# 品牌源图（产物 site/static/img/*.png 已入库）
+LOGO/
+
+# 插件 jar 与服务端产物：不分发
+插件/
+*.jar
+
+# 与站点构建无关的第三方源码
+blockbench-master/
+
+# 杂项工作目录
+新建文件夹/
+.narrafork/
+block.json
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.env.local
+.env.*.local

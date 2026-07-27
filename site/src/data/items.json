@@ -1,0 +1,2076 @@
+{
+  "icons": {
+    "camellia:black_tea": [
+      "/img/items/camellia__item__black_tea.png"
+    ],
+    "camellia:chamomile_tea": [
+      "/img/items/camellia__item__chamomile_tea.png"
+    ],
+    "camellia:green_tea": [
+      "/img/items/camellia__item__green_tea.png"
+    ],
+    "camellia:hibiscus_tea": [
+      "/img/items/camellia__item__hibiscus_tea.png"
+    ],
+    "camellia:lavender_tea": [
+      "/img/items/camellia__item__lavender_tea.png"
+    ],
+    "camellia:mint_tea": [
+      "/img/items/camellia__item__mint_tea.png"
+    ],
+    "camellia:oolong_tea": [
+      "/img/items/camellia__item__oolong_tea.png"
+    ],
+    "camellia:over_brewed_tea": [
+      "/img/items/camellia__item__over_brewed_tea.png"
+    ],
+    "camellia:shen_puer_tea": [
+      "/img/items/camellia__item__shen_puer_tea.png"
+    ],
+    "camellia:shu_puer_tea": [
+      "/img/items/camellia__item__shu_puer_tea.png"
+    ],
+    "camellia:tea_leaf": [
+      "/img/items/camellia__item__tea_leaf.png"
+    ],
+    "camellia:teapot": [
+      "/img/items/model__camellia_teapot.png"
+    ],
+    "camellia:white_tea": [
+      "/img/items/camellia__item__white_tea.png"
+    ],
+    "default:acacia_cabinet": [
+      "/img/items/model__default_acacia_cabinet.png"
+    ],
+    "default:apple_cider": [
+      "/img/items/minecraft__item__custom__apple_cider.png"
+    ],
+    "default:apple_crate": [
+      "/img/items/model__default_apple_crate.png"
+    ],
+    "default:apple_jam": [
+      "/img/items/minecraft__item__custom__apple_jam.png"
+    ],
+    "default:apple_pie": [
+      "/img/items/minecraft__item__custom__apple_pie.png"
+    ],
+    "default:apple_pie_slice": [
+      "/img/items/minecraft__item__custom__apple_pie_slice.png"
+    ],
+    "default:bacon": [
+      "/img/items/minecraft__item__custom__bacon.png"
+    ],
+    "default:bacon_and_eggs": [
+      "/img/items/minecraft__item__custom__bacon_and_eggs.png"
+    ],
+    "default:bacon_sandwich": [
+      "/img/items/minecraft__item__custom__bacon_sandwich.png"
+    ],
+    "default:baked_apple": [
+      "/img/items/minecraft__item__custom__baked_apple.png"
+    ],
+    "default:baked_cod_stew": [
+      "/img/items/minecraft__item__custom__baked_cod_stew.png"
+    ],
+    "default:bamboo_basket": [
+      "/img/items/model__default_bamboo_basket.png"
+    ],
+    "default:bamboo_cabinet": [
+      "/img/items/model__default_bamboo_cabinet.png"
+    ],
+    "default:bamboo_trellis": [
+      "/img/items/minecraft__item__custom__bamboo_trellis.png"
+    ],
+    "default:barbecue_stick": [
+      "/img/items/minecraft__item__custom__barbecue_stick.png"
+    ],
+    "default:basin": [
+      "/img/items/model__default_basin.png"
+    ],
+    "default:batter": [
+      "/img/items/minecraft__item__custom__batter.png"
+    ],
+    "default:beef_patty": [
+      "/img/items/minecraft__item__custom__beef_patty.png"
+    ],
+    "default:beef_stew": [
+      "/img/items/minecraft__item__custom__beef_stew.png"
+    ],
+    "default:beetroot_crate": [
+      "/img/items/model__default_beetroot_crate.png"
+    ],
+    "default:berry_crate": [
+      "/img/items/model__default_berry_crate.png"
+    ],
+    "default:birch_cabinet": [
+      "/img/items/model__default_birch_cabinet.png"
+    ],
+    "default:biscuits_and_gravy": [
+      "/img/items/minecraft__item__custom__biscuits_and_gravy.png"
+    ],
+    "default:blue_mum": [
+      "/img/items/minecraft__block__custom__blue_mum.png"
+    ],
+    "default:blueberries": [
+      "/img/items/minecraft__item__custom__blueberries.png"
+    ],
+    "default:blueberry_crate": [
+      "/img/items/model__default_blueberry_crate.png"
+    ],
+    "default:blueberry_jam": [
+      "/img/items/minecraft__item__custom__blueberry_jam.png"
+    ],
+    "default:blueberry_juice": [
+      "/img/items/minecraft__item__custom__blueberry_juice.png"
+    ],
+    "default:blueberry_muffin": [
+      "/img/items/minecraft__item__custom__blueberry_muffin.png"
+    ],
+    "default:blueberry_pie": [
+      "/img/items/minecraft__item__custom__blueberry_pie.png"
+    ],
+    "default:blueberry_pie_slice": [
+      "/img/items/minecraft__item__custom__blueberry_pie_slice.png"
+    ],
+    "default:blueberry_wine": [
+      "/img/items/minecraft__item__custom__blueberry_wine.png"
+    ],
+    "default:bone_broth": [
+      "/img/items/minecraft__item__custom__bone_broth.png"
+    ],
+    "default:bread_bag": [
+      "/img/items/model__default_bread_bag.png"
+    ],
+    "default:brown_mushroom_colony": [
+      "/img/items/minecraft__block__custom__brown_mushroom_colony_stage3.png"
+    ],
+    "default:butter": [
+      "/img/items/minecraft__item__custom__butter.png"
+    ],
+    "default:cabbage": [
+      "/img/items/minecraft__item__custom__cabbage.png"
+    ],
+    "default:cabbage_crate": [
+      "/img/items/model__default_cabbage_crate.png"
+    ],
+    "default:cabbage_leaf": [
+      "/img/items/minecraft__item__custom__cabbage_leaf.png"
+    ],
+    "default:cabbage_rolls": [
+      "/img/items/minecraft__item__custom__cabbage_rolls.png"
+    ],
+    "default:cabbage_seeds": [
+      "/img/items/minecraft__item__custom__cabbage_seeds.png"
+    ],
+    "default:cake_slice": [
+      "/img/items/minecraft__item__custom__cake_slice.png"
+    ],
+    "default:candy_corn": [
+      "/img/items/minecraft__item__custom__candy_corn.png"
+    ],
+    "default:canvas": [
+      "/img/items/minecraft__item__custom__canvas.png"
+    ],
+    "default:canvas_rug": [
+      "/img/items/model__default_canvas_rug.png"
+    ],
+    "default:caramel": [
+      "/img/items/minecraft__item__custom__caramel.png"
+    ],
+    "default:caramel_apple": [
+      "/img/items/minecraft__item__custom__caramel_apple.png"
+    ],
+    "default:carrot_cake": [
+      "/img/items/minecraft__item__custom__carrot_cake.png"
+    ],
+    "default:carrot_cake_slice": [
+      "/img/items/minecraft__item__custom__carrot_cake_slice.png"
+    ],
+    "default:carrot_crate": [
+      "/img/items/model__default_carrot_crate.png"
+    ],
+    "default:carrots": [
+      "/img/items/minecraft__item__carrot.png"
+    ],
+    "default:cask": [
+      "/img/items/model__default_cask.png"
+    ],
+    "default:charred_marshmallow_stick": [
+      "/img/items/minecraft__item__custom__charred_marshmallow_stick.png"
+    ],
+    "default:cheddar_cheese_slice": [
+      "/img/items/minecraft__item__custom__cheddar_cheese_slice.png"
+    ],
+    "default:cheddar_cheese_wheel": [
+      "/img/items/minecraft__item__custom__cheddar_cheese_wheel.png"
+    ],
+    "default:cherry": [
+      "/img/items/minecraft__item__custom__cherry.png"
+    ],
+    "default:cherry_cabinet": [
+      "/img/items/model__default_cherry_cabinet.png"
+    ],
+    "default:cherry_crate": [
+      "/img/items/model__default_cherry_crate.png"
+    ],
+    "default:cherry_jam": [
+      "/img/items/minecraft__item__custom__cherry_jam.png"
+    ],
+    "default:cherry_juice": [
+      "/img/items/minecraft__item__custom__cherry_juice.png"
+    ],
+    "default:cherry_wine": [
+      "/img/items/minecraft__item__custom__cherry_wine.png"
+    ],
+    "default:chicken_cuts": [
+      "/img/items/minecraft__item__custom__chicken_cuts.png"
+    ],
+    "default:chicken_pot_pie": [
+      "/img/items/minecraft__item__custom__chicken_pot_pie.png"
+    ],
+    "default:chicken_pot_pie_slice": [
+      "/img/items/minecraft__item__custom__chicken_pot_pie_slice.png"
+    ],
+    "default:chicken_sandwich": [
+      "/img/items/minecraft__item__custom__chicken_sandwich.png"
+    ],
+    "default:chicken_soup": [
+      "/img/items/minecraft__item__custom__chicken_soup.png"
+    ],
+    "default:chocolate_bar": [
+      "/img/items/minecraft__item__custom__chocolate_bar.png"
+    ],
+    "default:chocolate_milk_bottle": [
+      "/img/items/minecraft__item__custom__chocolate_milk_bottle.png"
+    ],
+    "default:chocolate_pie": [
+      "/img/items/minecraft__item__custom__chocolate_pie.png"
+    ],
+    "default:chocolate_pie_slice": [
+      "/img/items/minecraft__item__custom__chocolate_pie_slice.png"
+    ],
+    "default:cider_donut": [
+      "/img/items/minecraft__item__custom__cider_donut.png"
+    ],
+    "default:cocoabeans_bag": [
+      "/img/items/model__default_cocoabeans_bag.png"
+    ],
+    "default:cod_crate": [
+      "/img/items/model__default_cod_crate.png"
+    ],
+    "default:cod_roll": [
+      "/img/items/minecraft__item__custom__cod_roll.png"
+    ],
+    "default:cod_slice": [
+      "/img/items/minecraft__item__custom__cod_slice.png"
+    ],
+    "default:cooked_bacon": [
+      "/img/items/minecraft__item__custom__cooked_bacon.png"
+    ],
+    "default:cooked_chicken_cuts": [
+      "/img/items/minecraft__item__custom__cooked_chicken_cuts.png"
+    ],
+    "default:cooked_cod_slice": [
+      "/img/items/minecraft__item__custom__cooked_cod_slice.png"
+    ],
+    "default:cooked_corn_on_the_cob": [
+      "/img/items/minecraft__item__custom__cooked_corn_on_the_cob.png"
+    ],
+    "default:cooked_mutton_chops": [
+      "/img/items/minecraft__item__custom__cooked_mutton_chops.png"
+    ],
+    "default:cooked_rice": [
+      "/img/items/minecraft__item__custom__cooked_rice.png"
+    ],
+    "default:cooked_salmon_slice": [
+      "/img/items/minecraft__item__custom__cooked_salmon_slice.png"
+    ],
+    "default:cooked_sausage": [
+      "/img/items/minecraft__item__custom__cooked_sausage.png"
+    ],
+    "default:cookie_bag": [
+      "/img/items/model__default_cookie_bag.png"
+    ],
+    "default:cooking_oil": [
+      "/img/items/minecraft__item__custom__cooking_oil.png"
+    ],
+    "default:cooking_pot": [
+      "/img/items/model__default_cooking_pot.png"
+    ],
+    "default:cooking_pot_handle": [
+      "/img/items/model__default_cooking_pot_handle.png"
+    ],
+    "default:cooking_pot_tray": [
+      "/img/items/model__default_cooking_pot_tray.png"
+    ],
+    "default:corn": [
+      "/img/items/minecraft__item__custom__corn.png"
+    ],
+    "default:corn_bread": [
+      "/img/items/minecraft__item__custom__corn_bread.png"
+    ],
+    "default:corn_crate": [
+      "/img/items/model__default_corn_crate.png"
+    ],
+    "default:corn_husk": [
+      "/img/items/minecraft__item__custom__corn_husk.png"
+    ],
+    "default:corn_husk_bundle": [
+      "/img/items/model__default_corn_husk_bundle.png"
+    ],
+    "default:corn_kernel_bag": [
+      "/img/items/model__default_corn_kernel_bag.png"
+    ],
+    "default:corn_kernels": [
+      "/img/items/minecraft__item__custom__corn_kernels.png"
+    ],
+    "default:corn_meal": [
+      "/img/items/minecraft__item__custom__corn_meal.png"
+    ],
+    "default:corn_stew": [
+      "/img/items/minecraft__item__custom__corn_stew.png"
+    ],
+    "default:cotton": [
+      "/img/items/minecraft__item__custom__cotton.png"
+    ],
+    "default:cotton_bale": [
+      "/img/items/model__default_cotton_bale.png"
+    ],
+    "default:cotton_candy": [
+      "/img/items/minecraft__item__custom__cotton_candy.png"
+    ],
+    "default:cotton_seeds": [
+      "/img/items/minecraft__item__custom__cotton_seeds.png"
+    ],
+    "default:counter": [
+      "/img/items/model__default_counter.png"
+    ],
+    "default:crimson_cabinet": [
+      "/img/items/model__default_crimson_cabinet.png"
+    ],
+    "default:cutting_board": [
+      "/img/items/model__default_cutting_board.png"
+    ],
+    "default:dark_oak_cabinet": [
+      "/img/items/model__default_dark_oak_cabinet.png"
+    ],
+    "default:deng2": [
+      "/img/items/minecraft__item__custom__deng2.png"
+    ],
+    "default:diamond_knife": [
+      "/img/items/minecraft__item__custom__diamond_knife.png"
+    ],
+    "default:dog_food": [
+      "/img/items/minecraft__item__custom__dog_food.png"
+    ],
+    "default:drawer": [
+      "/img/items/model__default_drawer.png"
+    ],
+    "default:dumplings": [
+      "/img/items/minecraft__item__custom__dumplings.png"
+    ],
+    "default:egg_crate": [
+      "/img/items/model__default_egg_crate.png"
+    ],
+    "default:egg_sandwich": [
+      "/img/items/minecraft__item__custom__egg_sandwich.png"
+    ],
+    "default:elote": [
+      "/img/items/minecraft__item__custom__elote.png"
+    ],
+    "default:fertilizer_bag": [
+      "/img/items/minecraft__item__custom__fertilizer_bag.png"
+    ],
+    "default:fish_stew": [
+      "/img/items/minecraft__item__custom__fish_stew.png"
+    ],
+    "default:flint_knife": [
+      "/img/items/minecraft__item__custom__flint_knife.png"
+    ],
+    "default:flour": [
+      "/img/items/minecraft__item__custom__flour.png"
+    ],
+    "default:fried_egg": [
+      "/img/items/minecraft__item__custom__fried_egg.png"
+    ],
+    "default:fried_rice": [
+      "/img/items/minecraft__item__custom__fried_rice.png"
+    ],
+    "default:fruit_salad": [
+      "/img/items/minecraft__item__custom__fruit_salad.png"
+    ],
+    "default:glazed_carrots": [
+      "/img/items/minecraft__item__custom__glazed_carrots.png"
+    ],
+    "default:gleaming_salad": [
+      "/img/items/minecraft__item__custom__gleaming_salad.png"
+    ],
+    "default:gleaming_salad_block": [
+      "/img/items/minecraft__item__custom__gleaming_salad_block.png"
+    ],
+    "default:glow_berry_custard": [
+      "/img/items/minecraft__item__custom__glow_berry_custard.png"
+    ],
+    "default:glow_berry_jam": [
+      "/img/items/minecraft__item__custom__glow_berry_jam.png"
+    ],
+    "default:glow_berry_juice": [
+      "/img/items/minecraft__item__custom__glow_berry_juice.png"
+    ],
+    "default:glow_berry_wine": [
+      "/img/items/minecraft__item__custom__glow_berry_wine.png"
+    ],
+    "default:glowberry_crate": [
+      "/img/items/model__default_glowberry_crate.png"
+    ],
+    "default:goat_cheese_slice": [
+      "/img/items/minecraft__item__custom__goat_cheese_slice.png"
+    ],
+    "default:goat_cheese_wheel": [
+      "/img/items/minecraft__item__custom__goat_cheese_wheel.png"
+    ],
+    "default:goat_milk_bottle": [
+      "/img/items/minecraft__item__custom__goat_milk_bottle.png"
+    ],
+    "default:golden_apple_crate": [
+      "/img/items/model__default_golden_apple_crate.png"
+    ],
+    "default:golden_carrot_crate": [
+      "/img/items/model__default_golden_carrot_crate.png"
+    ],
+    "default:golden_knife": [
+      "/img/items/minecraft__item__custom__golden_knife.png"
+    ],
+    "default:grape_jam": [
+      "/img/items/minecraft__item__custom__grape_jam.png"
+    ],
+    "default:grape_pie": [
+      "/img/items/minecraft__item__custom__grape_pie.png"
+    ],
+    "default:grape_pie_slice": [
+      "/img/items/minecraft__item__custom__grape_pie_slice.png"
+    ],
+    "default:green_grape_crate": [
+      "/img/items/model__default_green_grape_crate.png"
+    ],
+    "default:green_grape_juice": [
+      "/img/items/minecraft__item__custom__green_grape_juice.png"
+    ],
+    "default:green_grape_wine": [
+      "/img/items/minecraft__item__custom__green_grape_wine.png"
+    ],
+    "default:green_grapes": [
+      "/img/items/minecraft__item__custom__green_grapes.png"
+    ],
+    "default:grilled_salmon": [
+      "/img/items/minecraft__item__custom__grilled_salmon.png"
+    ],
+    "default:ground_cinnamon_bag": [
+      "/img/items/model__default_ground_cinnamon_bag.png"
+    ],
+    "default:gunpowder_bag": [
+      "/img/items/model__default_gunpowder_bag.png"
+    ],
+    "default:half_tatami_mat": [
+      "/img/items/model__default_half_tatami_mat.png"
+    ],
+    "default:ham": [
+      "/img/items/minecraft__item__custom__ham.png"
+    ],
+    "default:hamburger": [
+      "/img/items/minecraft__item__custom__hamburger.png"
+    ],
+    "default:hard_cider": [
+      "/img/items/minecraft__item__custom__hard_cider.png"
+    ],
+    "default:hay_rug": [
+      "/img/items/model__default_hay_rug.png"
+    ],
+    "default:honey_cookie": [
+      "/img/items/minecraft__item__custom__honey_cookie.png"
+    ],
+    "default:honey_glazed_ham": [
+      "/img/items/minecraft__item__custom__honey_glazed_ham.png"
+    ],
+    "default:honey_glazed_ham_block": [
+      "/img/items/minecraft__item__custom__honey_glazed_ham_block.png"
+    ],
+    "default:horse_feed": [
+      "/img/items/minecraft__item__custom__horse_feed.png"
+    ],
+    "default:hot_cocoa": [
+      "/img/items/minecraft__item__custom__hot_cocoa.png"
+    ],
+    "default:iron_knife": [
+      "/img/items/minecraft__item__custom__iron_knife.png"
+    ],
+    "default:jar": [
+      "/img/items/minecraft__item__custom__jar.png"
+    ],
+    "default:jerky": [
+      "/img/items/minecraft__item__custom__jerky.png"
+    ],
+    "default:jungle_cabinet": [
+      "/img/items/model__default_jungle_cabinet.png"
+    ],
+    "default:kelp_roll": [
+      "/img/items/minecraft__item__custom__kelp_roll.png"
+    ],
+    "default:kelp_roll_slice": [
+      "/img/items/minecraft__item__custom__kelp_roll_slice.png"
+    ],
+    "default:light_blue_mum": [
+      "/img/items/minecraft__block__custom__light_blue_mum.png"
+    ],
+    "default:macaroni_and_cheese": [
+      "/img/items/minecraft__item__custom__macaroni_and_cheese.png"
+    ],
+    "default:mangrove_cabinet": [
+      "/img/items/model__default_mangrove_cabinet.png"
+    ],
+    "default:manure": [
+      "/img/items/minecraft__item__custom__manure.png"
+    ],
+    "default:manure_bag": [
+      "/img/items/model__default_manure_bag.png"
+    ],
+    "default:manure_block": [
+      "/img/items/model__default_manure_block.png"
+    ],
+    "default:manure_brick": [
+      "/img/items/minecraft__item__custom__manure_brick.png"
+    ],
+    "default:manure_bricks": [
+      "/img/items/model__default_manure_bricks.png"
+    ],
+    "default:maple_cookie": [
+      "/img/items/minecraft__item__custom__maple_cookie.png"
+    ],
+    "default:marshmallow_stick": [
+      "/img/items/minecraft__item__custom__marshmallow_stick.png"
+    ],
+    "default:mashed_potatoes": [
+      "/img/items/minecraft__item__custom__mashed_potatoes.png"
+    ],
+    "default:mead": [
+      "/img/items/minecraft__item__custom__mead.png"
+    ],
+    "default:melon_jam": [
+      "/img/items/minecraft__item__custom__melon_jam.png"
+    ],
+    "default:melon_juice": [
+      "/img/items/minecraft__item__custom__melon_juice.png"
+    ],
+    "default:melon_popsicle": [
+      "/img/items/minecraft__item__custom__melon_popsicle.png"
+    ],
+    "default:melon_wine": [
+      "/img/items/minecraft__item__custom__melon_wine.png"
+    ],
+    "default:milk_bottle": [
+      "/img/items/minecraft__item__custom__milk_bottle.png"
+    ],
+    "default:minced_beef": [
+      "/img/items/minecraft__item__custom__minced_beef.png"
+    ],
+    "default:mixed_salad": [
+      "/img/items/minecraft__item__custom__mixed_salad.png"
+    ],
+    "default:moonshine": [
+      "/img/items/minecraft__item__custom__moonshine.png"
+    ],
+    "default:mulch": [
+      "/img/items/model__default_mulch.png"
+    ],
+    "default:mushroom_rice": [
+      "/img/items/minecraft__item__custom__mushroom_rice.png"
+    ],
+    "default:mutton_chops": [
+      "/img/items/minecraft__item__custom__mutton_chops.png"
+    ],
+    "default:mutton_wrap": [
+      "/img/items/minecraft__item__custom__mutton_wrap.png"
+    ],
+    "default:nether_salad": [
+      "/img/items/minecraft__item__custom__nether_salad.png"
+    ],
+    "default:netherite_knife": [
+      "/img/items/minecraft__item__custom__netherite_knife.png"
+    ],
+    "default:noodle_soup": [
+      "/img/items/minecraft__item__custom__noodle_soup.png"
+    ],
+    "default:oak_cabinet": [
+      "/img/items/model__default_oak_cabinet.png"
+    ],
+    "default:onion": [
+      "/img/items/minecraft__item__custom__onion.png"
+    ],
+    "default:onion_crate": [
+      "/img/items/model__default_onion_crate.png"
+    ],
+    "default:orange_mum": [
+      "/img/items/minecraft__block__custom__orange_mum.png"
+    ],
+    "default:organic_compost": [
+      "/img/items/model__default_organic_compost.png"
+    ],
+    "default:pao": [
+      {
+        "url": "/img/items/minecraft__item__custom__pao.png",
+        "frames": 13,
+        "frametime": 8
+      }
+    ],
+    "default:pao2": [
+      {
+        "url": "/img/items/minecraft__item__custom__pao2.png",
+        "frames": 13,
+        "frametime": 8
+      }
+    ],
+    "default:pasta_with_meatballs": [
+      "/img/items/minecraft__item__custom__pasta_with_meatballs.png"
+    ],
+    "default:pasta_with_mutton_chop": [
+      "/img/items/minecraft__item__custom__pasta_with_mutton_chop.png"
+    ],
+    "default:peanut": [
+      "/img/items/minecraft__item__custom__peanut.png"
+    ],
+    "default:peanut_butter": [
+      "/img/items/minecraft__item__custom__peanut_butter.png"
+    ],
+    "default:peanut_butter_and_jelly_sandwich": [
+      "/img/items/minecraft__item__custom__peanut_butter_and_jelly_sandwich.png"
+    ],
+    "default:peanut_butter_cookie": [
+      "/img/items/minecraft__item__custom__peanut_butter_cookie.png"
+    ],
+    "default:peanut_butter_pie": [
+      "/img/items/minecraft__item__custom__peanut_butter_pie.png"
+    ],
+    "default:peanut_butter_pie_slice": [
+      "/img/items/minecraft__item__custom__peanut_butter_pie_slice.png"
+    ],
+    "default:peanut_crate": [
+      "/img/items/model__default_peanut_crate.png"
+    ],
+    "default:pickled_beetroots": [
+      "/img/items/minecraft__item__custom__pickled_beetroots.png"
+    ],
+    "default:pickled_cabbage": [
+      "/img/items/minecraft__item__custom__pickled_cabbage.png"
+    ],
+    "default:pickled_carrots": [
+      "/img/items/minecraft__item__custom__pickled_carrots.png"
+    ],
+    "default:pickled_onions": [
+      "/img/items/minecraft__item__custom__pickled_onions.png"
+    ],
+    "default:pickled_potatoes": [
+      "/img/items/minecraft__item__custom__pickled_potatoes.png"
+    ],
+    "default:pie_crust": [
+      "/img/items/minecraft__item__custom__pie_crust.png"
+    ],
+    "default:pink_mum": [
+      "/img/items/minecraft__block__custom__pink_mum.png"
+    ],
+    "default:poisonous_potato_crate": [
+      "/img/items/model__default_poisonous_potato_crate.png"
+    ],
+    "default:polished_manure": [
+      "/img/items/model__default_polished_manure.png"
+    ],
+    "default:polished_salt_block": [
+      "/img/items/model__default_polished_salt_block.png"
+    ],
+    "default:popcorn": [
+      "/img/items/minecraft__item__custom__popcorn.png"
+    ],
+    "default:potato_crate": [
+      "/img/items/model__default_potato_crate.png"
+    ],
+    "default:pudding": [
+      "/img/items/minecraft__item__custom__pudding.png"
+    ],
+    "default:pudding_syrup": [
+      "/img/items/minecraft__item__custom__pudding_syrup.png"
+    ],
+    "default:pumpkin_pie_slice": [
+      "/img/items/minecraft__item__custom__pumpkin_pie_slice.png"
+    ],
+    "default:pumpkin_slice": [
+      "/img/items/minecraft__item__custom__pumpkin_slice.png"
+    ],
+    "default:pumpkin_slice_crate": [
+      "/img/items/model__default_pumpkin_slice_crate.png"
+    ],
+    "default:pumpkin_soup": [
+      "/img/items/minecraft__item__custom__pumpkin_soup.png"
+    ],
+    "default:purple_mum": [
+      "/img/items/minecraft__block__custom__purple_mum.png"
+    ],
+    "default:raisins": [
+      "/img/items/minecraft__item__custom__raisins.png"
+    ],
+    "default:raspberry": [
+      "/img/items/minecraft__item__custom__raspberry.png"
+    ],
+    "default:raspberry_crate": [
+      "/img/items/model__default_raspberry_crate.png"
+    ],
+    "default:raspberry_jam": [
+      "/img/items/minecraft__item__custom__raspberry_jam.png"
+    ],
+    "default:raspberry_juice": [
+      "/img/items/minecraft__item__custom__raspberry_juice.png"
+    ],
+    "default:raspberry_pie": [
+      "/img/items/minecraft__item__custom__raspberry_pie.png"
+    ],
+    "default:raspberry_pie_slice": [
+      "/img/items/minecraft__item__custom__raspberry_pie_slice.png"
+    ],
+    "default:raspberry_scone": [
+      "/img/items/minecraft__item__custom__raspberry_scone.png"
+    ],
+    "default:raspberry_wine": [
+      "/img/items/minecraft__item__custom__raspberry_wine.png"
+    ],
+    "default:ratatouille": [
+      "/img/items/minecraft__item__custom__ratatouille.png"
+    ],
+    "default:raw_pasta": [
+      "/img/items/minecraft__item__custom__raw_pasta.png"
+    ],
+    "default:raw_sausage": [
+      "/img/items/minecraft__item__custom__raw_sausage.png"
+    ],
+    "default:raw_skewered_sausage": [
+      "/img/items/minecraft__item__custom__raw_skewered_sausage.png"
+    ],
+    "default:red_grape_crate": [
+      "/img/items/model__default_red_grape_crate.png"
+    ],
+    "default:red_grape_juice": [
+      "/img/items/minecraft__item__custom__red_grape_juice.png"
+    ],
+    "default:red_grape_wine": [
+      "/img/items/minecraft__item__custom__red_grape_wine.png"
+    ],
+    "default:red_grapes": [
+      "/img/items/minecraft__item__custom__red_grapes.png"
+    ],
+    "default:red_mum": [
+      "/img/items/minecraft__block__custom__red_mum.png"
+    ],
+    "default:red_mushroom_colony": [
+      "/img/items/minecraft__block__custom__red_mushroom_colony_stage3.png"
+    ],
+    "default:rice": [
+      "/img/items/minecraft__item__custom__rice.png"
+    ],
+    "default:rice_bag": [
+      "/img/items/model__default_rice_bag.png"
+    ],
+    "default:rice_bale": [
+      "/img/items/model__default_rice_bale.png"
+    ],
+    "default:rice_panicle": [
+      "/img/items/minecraft__item__custom__rice_panicle.png"
+    ],
+    "default:rice_roll_medley_block": [
+      "/img/items/minecraft__item__custom__rice_roll_medley_block.png"
+    ],
+    "default:rich_soil": [
+      "/img/items/model__default_rich_soil.png"
+    ],
+    "default:roast_chicken": [
+      "/img/items/minecraft__item__custom__roast_chicken.png"
+    ],
+    "default:roast_chicken_block": [
+      "/img/items/minecraft__item__custom__roast_chicken_block.png"
+    ],
+    "default:roasted_marshmallow_stick": [
+      "/img/items/minecraft__item__custom__roasted_marshmallow_stick.png"
+    ],
+    "default:roasted_mutton_chops": [
+      "/img/items/minecraft__item__custom__roasted_mutton_chops.png"
+    ],
+    "default:roasted_peanuts": [
+      "/img/items/minecraft__item__custom__roasted_peanuts.png"
+    ],
+    "default:root_beer": [
+      "/img/items/minecraft__item__custom__root_beer.png"
+    ],
+    "default:rope": [
+      "/img/items/minecraft__item__custom__rope.png"
+    ],
+    "default:rope_coil": [
+      "/img/items/model__default_rope_coil.png"
+    ],
+    "default:rope_fence_gate": [
+      "/img/items/model__default_rope_fence_gate.png"
+    ],
+    "default:rotten_tomato": [
+      "/img/items/minecraft__item__custom__rotten_tomato.png"
+    ],
+    "default:safety_net": [
+      "/img/items/minecraft__block__custom__safety_net.png"
+    ],
+    "default:salmon_crate": [
+      "/img/items/model__default_salmon_crate.png"
+    ],
+    "default:salmon_roll": [
+      "/img/items/minecraft__item__custom__salmon_roll.png"
+    ],
+    "default:salmon_slice": [
+      "/img/items/minecraft__item__custom__salmon_slice.png"
+    ],
+    "default:salt": [
+      "/img/items/minecraft__item__custom__salt.png"
+    ],
+    "default:salt_bag": [
+      "/img/items/model__default_salt_bag.png"
+    ],
+    "default:salt_block": [
+      "/img/items/model__default_salt_block.png"
+    ],
+    "default:sandy_shrub": [
+      "/img/items/minecraft__block__custom__sandy_shrub.png"
+    ],
+    "default:sap_bucket": [
+      "/img/items/minecraft__item__custom__sap_bucket.png"
+    ],
+    "default:shepherds_pie": [
+      "/img/items/minecraft__item__custom__shepherds_pie.png"
+    ],
+    "default:shepherds_pie_block": [
+      "/img/items/minecraft__item__custom__shepherds_pie_block.png"
+    ],
+    "default:silver_star_blueberries": [
+      "/img/items/minecraft__item__custom__blueberries.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_cabbage": [
+      "/img/items/minecraft__item__custom__cabbage.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_corn": [
+      "/img/items/minecraft__item__custom__corn.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_green_grapes": [
+      "/img/items/minecraft__item__custom__green_grapes.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_onion": [
+      "/img/items/minecraft__item__custom__onion.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_peanut": [
+      "/img/items/minecraft__item__custom__peanut.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_raspberry": [
+      "/img/items/minecraft__item__custom__raspberry.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_red_grapes": [
+      "/img/items/minecraft__item__custom__red_grapes.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:silver_star_tomato": [
+      "/img/items/minecraft__item__custom__tomato.png",
+      {
+        "url": "/img/items/minecraft__item__custom__silver_star.png",
+        "frames": 24,
+        "frametime": 2
+      }
+    ],
+    "default:skewered_sausage": [
+      "/img/items/minecraft__item__custom__skewered_sausage.png"
+    ],
+    "default:skillet": [
+      "/img/items/model__default_skillet.png"
+    ],
+    "default:smoked_ham": [
+      "/img/items/minecraft__item__custom__smoked_ham.png"
+    ],
+    "default:smore": [
+      "/img/items/minecraft__item__custom__smore.png"
+    ],
+    "default:soil_farmland": [
+      "/img/items/model__default_soil_farmland.png"
+    ],
+    "default:spool": [
+      "/img/items/model__default_spool.png"
+    ],
+    "default:sprinkler": [
+      "/img/items/model__default_sprinkler.png"
+    ],
+    "default:spruce_cabinet": [
+      "/img/items/model__default_spruce_cabinet.png"
+    ],
+    "default:squid_ink_pasta": [
+      "/img/items/minecraft__item__custom__squid_ink_pasta.png"
+    ],
+    "default:steak_and_potatoes": [
+      "/img/items/minecraft__item__custom__steak_and_potatoes.png"
+    ],
+    "default:stick_brush": [
+      "/img/items/model__default_stick_brush.png"
+    ],
+    "default:stomping_basin": [
+      "/img/items/model__default_stomping_basin.png"
+    ],
+    "default:stove": [
+      "/img/items/model__default_stove.png"
+    ],
+    "default:straw": [
+      "/img/items/minecraft__item__custom__straw.png"
+    ],
+    "default:straw_bale": [
+      "/img/items/model__default_straw_bale.png"
+    ],
+    "default:straw_rug": [
+      "/img/items/model__default_straw_rug.png"
+    ],
+    "default:stripped_bamboo_trellis": [
+      "/img/items/minecraft__item__custom__stripped_bamboo_trellis.png"
+    ],
+    "default:stuffed_potato": [
+      "/img/items/minecraft__item__custom__stuffed_potato.png"
+    ],
+    "default:stuffed_pumpkin": [
+      "/img/items/minecraft__item__custom__stuffed_pumpkin.png"
+    ],
+    "default:stuffed_pumpkin_block": [
+      "/img/items/minecraft__item__custom__stuffed_pumpkin_block.png"
+    ],
+    "default:sugar_bag": [
+      "/img/items/model__default_sugar_bag.png"
+    ],
+    "default:sweet_berry_cheesecake": [
+      "/img/items/minecraft__item__custom__sweet_berry_cheesecake.png"
+    ],
+    "default:sweet_berry_cheesecake_slice": [
+      "/img/items/minecraft__item__custom__sweet_berry_cheesecake_slice.png"
+    ],
+    "default:sweet_berry_cookie": [
+      "/img/items/minecraft__item__custom__sweet_berry_cookie.png"
+    ],
+    "default:sweet_berry_jam": [
+      "/img/items/minecraft__item__custom__sweet_berry_jam.png"
+    ],
+    "default:sweet_berry_juice": [
+      "/img/items/minecraft__item__custom__sweet_berry_juice.png"
+    ],
+    "default:sweet_berry_wine": [
+      "/img/items/minecraft__item__custom__sweet_berry_wine.png"
+    ],
+    "default:syrup_bottle": [
+      "/img/items/minecraft__item__custom__syrup_bottle.png"
+    ],
+    "default:taco": [
+      "/img/items/minecraft__item__custom__taco.png"
+    ],
+    "default:tamale": [
+      "/img/items/minecraft__item__custom__tamale.png"
+    ],
+    "default:tatami": [
+      "/img/items/model__default_tatami.png"
+    ],
+    "default:tomato": [
+      "/img/items/minecraft__item__custom__tomato.png"
+    ],
+    "default:tomato_crate": [
+      "/img/items/model__default_tomato_crate.png"
+    ],
+    "default:tomato_sauce": [
+      "/img/items/minecraft__item__custom__tomato_sauce.png"
+    ],
+    "default:tomato_seeds": [
+      "/img/items/minecraft__item__custom__tomato_seeds.png"
+    ],
+    "default:tortilla": [
+      "/img/items/minecraft__item__custom__tortilla.png"
+    ],
+    "default:trail_mix": [
+      "/img/items/minecraft__item__custom__trail_mix.png"
+    ],
+    "default:tree_bark": [
+      "/img/items/minecraft__item__custom__tree_bark.png"
+    ],
+    "default:tree_tapper": [
+      "/img/items/model__default_tree_tapper.png"
+    ],
+    "default:trellis": [
+      "/img/items/minecraft__item__custom__trellis.png"
+    ],
+    "default:trough": [
+      "/img/items/model__default_trough.png"
+    ],
+    "default:uncooked_corn_on_the_cob": [
+      "/img/items/minecraft__item__custom__uncooked_corn_on_the_cob.png"
+    ],
+    "default:unripe_cheddar_cheese_wheel": [
+      "/img/items/minecraft__item__custom__unripe_cheddar_cheese_wheel.png"
+    ],
+    "default:unripe_goat_cheese_wheel": [
+      "/img/items/minecraft__item__custom__unripe_goat_cheese_wheel.png"
+    ],
+    "default:vegetable_noodles": [
+      "/img/items/minecraft__item__custom__vegetable_noodles.png"
+    ],
+    "default:vegetable_soup": [
+      "/img/items/minecraft__item__custom__vegetable_soup.png"
+    ],
+    "default:waffle": [
+      "/img/items/minecraft__item__custom__waffle.png"
+    ],
+    "default:warped_cabinet": [
+      "/img/items/model__default_warped_cabinet.png"
+    ],
+    "default:watering_can": [
+      "/img/items/minecraft__item__custom__watering_can.png"
+    ],
+    "default:wet_manure_brick": [
+      "/img/items/minecraft__item__custom__wet_manure_brick.png"
+    ],
+    "default:wheat_dough": [
+      "/img/items/minecraft__item__custom__wheat_dough.png"
+    ],
+    "default:white_mum": [
+      "/img/items/minecraft__block__custom__white_mum.png"
+    ],
+    "default:wild_beetroots": [
+      "/img/items/minecraft__block__custom__wild_beetroots.png"
+    ],
+    "default:wild_cabbages": [
+      "/img/items/minecraft__block__custom__wild_cabbages.png"
+    ],
+    "default:wild_carrots": [
+      "/img/items/minecraft__block__custom__wild_carrots.png"
+    ],
+    "default:wild_cotton": [
+      "/img/items/minecraft__block__custom__wild_cotton.png"
+    ],
+    "default:wild_green_grapes": [
+      "/img/items/minecraft__block__custom__wild_green_grapes.png"
+    ],
+    "default:wild_onions": [
+      "/img/items/minecraft__block__custom__wild_onions.png"
+    ],
+    "default:wild_peanuts": [
+      "/img/items/minecraft__block__custom__wild_peanuts.png"
+    ],
+    "default:wild_potatoes": [
+      "/img/items/minecraft__block__custom__wild_potatoes.png"
+    ],
+    "default:wild_red_grapes": [
+      "/img/items/minecraft__block__custom__wild_red_grapes.png"
+    ],
+    "default:wild_rice": [
+      "/img/items/minecraft__block__custom__wild_rice_top.png"
+    ],
+    "default:wild_tomatoes": [
+      "/img/items/minecraft__block__custom__tomatoes_stage3.png"
+    ],
+    "default:wooden_basket": [
+      "/img/items/model__default_wooden_basket.png"
+    ],
+    "default:yellow_mum": [
+      "/img/items/minecraft__block__custom__yellow_mum.png"
+    ],
+    "endersdelight:amberveil": [
+      "/img/items/endersdelight__item__custom__amberveils.png"
+    ],
+    "endersdelight:amberveil_stew": [
+      "/img/items/endersdelight__item__custom__amberveil_stew.png"
+    ],
+    "endersdelight:amberveiled_curry": [
+      "/img/items/endersdelight__item__custom__amberveiled_curry.png"
+    ],
+    "endersdelight:chicken_curry": [
+      "/img/items/endersdelight__item__custom__chicken_curry.png"
+    ],
+    "endersdelight:chorus_juice": [
+      "/img/items/endersdelight__item__custom__chorus_juice.png"
+    ],
+    "endersdelight:chorus_pie": [
+      "/img/items/endersdelight__item__custom__chorus_pie.png"
+    ],
+    "endersdelight:chorus_pie_slice": [
+      "/img/items/endersdelight__item__custom__chorus_pie_slice.png"
+    ],
+    "endersdelight:chorus_stew": [
+      "/img/items/endersdelight__item__custom__chorus_stew.png"
+    ],
+    "endersdelight:chorus_stew_wood": [
+      "/img/items/endersdelight__item__custom__chorus_stew_wood.png"
+    ],
+    "endersdelight:chorusflame": [
+      "/img/items/endersdelight__item__custom__chorusflame.png"
+    ],
+    "endersdelight:coal_soap": [
+      "/img/items/endersdelight__item__custom__coal_soap.png"
+    ],
+    "endersdelight:cooking_pot_gold": [
+      "/img/items/model__endersdelight_cooking_pot_gold.png"
+    ],
+    "endersdelight:copper_soap": [
+      "/img/items/endersdelight__item__custom__copper_soap.png"
+    ],
+    "endersdelight:crawling_sandwich": [
+      "/img/items/endersdelight__item__custom__crawling_sandwich.png"
+    ],
+    "endersdelight:crispy_skewer": [
+      "/img/items/endersdelight__item__custom__crispy_skewer.png"
+    ],
+    "endersdelight:diamond_soap": [
+      "/img/items/endersdelight__item__custom__diamond_soap.png"
+    ],
+    "endersdelight:emerald_soap": [
+      "/img/items/endersdelight__item__custom__emerald_soap.png"
+    ],
+    "endersdelight:ender_paella": [
+      "/img/items/endersdelight__item__custom__ender_paella.png"
+    ],
+    "endersdelight:ender_paella_wood": [
+      "/img/items/endersdelight__item__custom__ender_paella_wood.png"
+    ],
+    "endersdelight:ender_shard": [
+      "/img/items/endersdelight__item__custom__ender_shard.png"
+    ],
+    "endersdelight:enderman_sight": [
+      "/img/items/endersdelight__item__custom__enderman_sight.png"
+    ],
+    "endersdelight:endermite_stew": [
+      "/img/items/endersdelight__item__custom__endermite_stew.png"
+    ],
+    "endersdelight:endermite_stew_wood": [
+      "/img/items/endersdelight__item__custom__endermite_stew_wood.png"
+    ],
+    "endersdelight:endstone_stove": [
+      "/img/items/model__endersdelight_endstone_stove.png"
+    ],
+    "endersdelight:ethereal_saffron": [
+      "/img/items/endersdelight__item__custom__ethereal_saffron.png"
+    ],
+    "endersdelight:gold_soap": [
+      "/img/items/endersdelight__item__custom__gold_soap.png"
+    ],
+    "endersdelight:iron_soap": [
+      "/img/items/endersdelight__item__custom__iron_soap.png"
+    ],
+    "endersdelight:lapis_soap": [
+      "/img/items/endersdelight__item__custom__lapis_soap.png"
+    ],
+    "endersdelight:mite_crust": [
+      "/img/items/endersdelight__item__custom__mite_crust.png"
+    ],
+    "endersdelight:netherite_soap": [
+      "/img/items/endersdelight__item__custom__netherite_soap.png"
+    ],
+    "endersdelight:pearl_pasta": [
+      "/img/items/endersdelight__item__custom__pearl_pasta.png"
+    ],
+    "endersdelight:pearl_pasta_wood": [
+      "/img/items/endersdelight__item__custom__pearl_pasta_wood.png"
+    ],
+    "endersdelight:shulker_bowl": [
+      "/img/items/endersdelight__item__custom__shulker_bowl.png"
+    ],
+    "endersdelight:shulker_filet": [
+      "/img/items/endersdelight__item__custom__shulker_filet.png"
+    ],
+    "endersdelight:shulker_mollusk": [
+      "/img/items/endersdelight__item__custom__shulker_mollusk.png"
+    ],
+    "endersdelight:sight_fragments": [
+      "/img/items/endersdelight__item__custom__sight_fragments.png"
+    ],
+    "endersdelight:skillet_broken": [
+      "/img/items/model__endersdelight_skillet_broken.png"
+    ],
+    "endersdelight:skillet_cracked": [
+      "/img/items/model__endersdelight_skillet_cracked.png"
+    ],
+    "endersdelight:skillet_damaged": [
+      "/img/items/model__endersdelight_skillet_damaged.png"
+    ],
+    "endersdelight:skillet_gold": [
+      "/img/items/model__endersdelight_skillet_gold.png"
+    ],
+    "endersdelight:soap": [
+      "/img/items/endersdelight__item__custom__soap.png"
+    ],
+    "endersdelight:steak_fries": [
+      "/img/items/endersdelight__item__custom__steak_fries.png"
+    ],
+    "endersdelight:strange_eclair": [
+      "/img/items/endersdelight__item__custom__strange_eclair.png"
+    ],
+    "endersdelight:stuffed_shulker_block": [
+      "/img/items/endersdelight__item__custom__stuffed_shulker_block.png"
+    ],
+    "endersdelight:stuffed_shulker_bowl": [
+      "/img/items/endersdelight__item__custom__stuffed_shulker_bowl.png"
+    ],
+    "endersdelight:twisted_cereal": [
+      "/img/items/endersdelight__item__custom__twisted_cereal.png"
+    ],
+    "endersdelight:twisted_cereal_wood": [
+      "/img/items/endersdelight__item__custom__twisted_cereal_wood.png"
+    ],
+    "endersdelight:uncanny_cookies": [
+      "/img/items/endersdelight__item__custom__uncanny_cookies.png"
+    ],
+    "endersdelight:veil_of_flames_risotto": [
+      "/img/items/endersdelight__item__custom__veil_of_flames_risotto.png"
+    ],
+    "endersdelight:voidpepper": [
+      "/img/items/endersdelight__item__custom__voidpepper_sprout.png"
+    ],
+    "minecraft:acacia_log": [
+      "/img/items/model__minecraft_acacia_log.png"
+    ],
+    "minecraft:acacia_slab": [
+      "/img/items/model__minecraft_acacia_slab.png"
+    ],
+    "minecraft:acacia_trapdoor": [
+      "/img/items/model__minecraft_acacia_trapdoor.png"
+    ],
+    "minecraft:acacia_wood": [
+      "/img/items/model__minecraft_acacia_wood.png"
+    ],
+    "minecraft:allium": [
+      "/img/items/minecraft__block__allium.png"
+    ],
+    "minecraft:apple": [
+      "/img/items/minecraft__item__apple.png"
+    ],
+    "minecraft:azure_bluet": [
+      "/img/items/minecraft__block__azure_bluet.png"
+    ],
+    "minecraft:baked_potato": [
+      "/img/items/minecraft__item__baked_potato.png"
+    ],
+    "minecraft:bamboo": [
+      "/img/items/minecraft__item__bamboo.png"
+    ],
+    "minecraft:bamboo_block": [
+      "/img/items/model__minecraft_bamboo_block.png"
+    ],
+    "minecraft:bamboo_slab": [
+      "/img/items/model__minecraft_bamboo_slab.png"
+    ],
+    "minecraft:bamboo_trapdoor": [
+      "/img/items/model__minecraft_bamboo_trapdoor.png"
+    ],
+    "minecraft:beef": [
+      "/img/items/minecraft__item__beef.png"
+    ],
+    "minecraft:beetroot": [
+      "/img/items/minecraft__item__beetroot.png"
+    ],
+    "minecraft:beetroot_seeds": [
+      "/img/items/minecraft__item__beetroot_seeds.png"
+    ],
+    "minecraft:birch_log": [
+      "/img/items/model__minecraft_birch_log.png"
+    ],
+    "minecraft:birch_slab": [
+      "/img/items/model__minecraft_birch_slab.png"
+    ],
+    "minecraft:birch_trapdoor": [
+      "/img/items/model__minecraft_birch_trapdoor.png"
+    ],
+    "minecraft:birch_wood": [
+      "/img/items/model__minecraft_birch_wood.png"
+    ],
+    "minecraft:black_dye": [
+      "/img/items/minecraft__item__black_dye.png"
+    ],
+    "minecraft:blaze_powder": [
+      "/img/items/minecraft__item__blaze_powder.png"
+    ],
+    "minecraft:blue_dye": [
+      "/img/items/minecraft__item__blue_dye.png"
+    ],
+    "minecraft:blue_orchid": [
+      "/img/items/minecraft__block__blue_orchid.png"
+    ],
+    "minecraft:bone": [
+      "/img/items/minecraft__item__bone.png"
+    ],
+    "minecraft:bone_meal": [
+      "/img/items/minecraft__item__bone_meal.png"
+    ],
+    "minecraft:bowl": [
+      "/img/items/minecraft__item__bowl.png"
+    ],
+    "minecraft:bread": [
+      "/img/items/minecraft__item__bread.png"
+    ],
+    "minecraft:brick": [
+      "/img/items/minecraft__item__brick.png"
+    ],
+    "minecraft:bricks": [
+      "/img/items/model__minecraft_bricks.png"
+    ],
+    "minecraft:brown_mushroom": [
+      "/img/items/minecraft__block__brown_mushroom.png"
+    ],
+    "minecraft:bucket": [
+      "/img/items/minecraft__item__bucket.png"
+    ],
+    "minecraft:cake": [
+      "/img/items/minecraft__item__cake.png"
+    ],
+    "minecraft:campfire": [
+      "/img/items/minecraft__item__campfire.png"
+    ],
+    "minecraft:carrot": [
+      "/img/items/minecraft__item__carrot.png"
+    ],
+    "minecraft:cherry_log": [
+      "/img/items/model__minecraft_cherry_log.png"
+    ],
+    "minecraft:cherry_slab": [
+      "/img/items/model__minecraft_cherry_slab.png"
+    ],
+    "minecraft:cherry_trapdoor": [
+      "/img/items/model__minecraft_cherry_trapdoor.png"
+    ],
+    "minecraft:cherry_wood": [
+      "/img/items/model__minecraft_cherry_wood.png"
+    ],
+    "minecraft:chicken": [
+      "/img/items/minecraft__item__chicken.png"
+    ],
+    "minecraft:chorus_flower": [
+      "/img/items/model__minecraft_chorus_flower.png"
+    ],
+    "minecraft:chorus_fruit": [
+      "/img/items/minecraft__item__chorus_fruit.png"
+    ],
+    "minecraft:clay": [
+      "/img/items/model__minecraft_clay.png"
+    ],
+    "minecraft:clay_ball": [
+      "/img/items/minecraft__item__clay_ball.png"
+    ],
+    "minecraft:coal": [
+      "/img/items/minecraft__item__coal.png"
+    ],
+    "minecraft:cocoa_beans": [
+      "/img/items/minecraft__item__cocoa_beans.png"
+    ],
+    "minecraft:cod": [
+      "/img/items/minecraft__item__cod.png"
+    ],
+    "minecraft:cooked_beef": [
+      "/img/items/minecraft__item__cooked_beef.png"
+    ],
+    "minecraft:cooked_chicken": [
+      "/img/items/minecraft__item__cooked_chicken.png"
+    ],
+    "minecraft:cooked_cod": [
+      "/img/items/minecraft__item__cooked_cod.png"
+    ],
+    "minecraft:cooked_mutton": [
+      "/img/items/minecraft__item__cooked_mutton.png"
+    ],
+    "minecraft:cooked_porkchop": [
+      "/img/items/minecraft__item__cooked_porkchop.png"
+    ],
+    "minecraft:cooked_rabbit": [
+      "/img/items/minecraft__item__cooked_rabbit.png"
+    ],
+    "minecraft:cooked_salmon": [
+      "/img/items/minecraft__item__cooked_salmon.png"
+    ],
+    "minecraft:cookie": [
+      "/img/items/minecraft__item__cookie.png"
+    ],
+    "minecraft:copper_ingot": [
+      "/img/items/minecraft__item__copper_ingot.png"
+    ],
+    "minecraft:cornflower": [
+      "/img/items/minecraft__block__cornflower.png"
+    ],
+    "minecraft:crimson_fungus": [
+      "/img/items/minecraft__block__crimson_fungus.png"
+    ],
+    "minecraft:crimson_hyphae": [
+      "/img/items/model__minecraft_crimson_hyphae.png"
+    ],
+    "minecraft:crimson_slab": [
+      "/img/items/model__minecraft_crimson_slab.png"
+    ],
+    "minecraft:crimson_stem": [
+      "/img/items/model__minecraft_crimson_stem.png"
+    ],
+    "minecraft:crimson_trapdoor": [
+      "/img/items/model__minecraft_crimson_trapdoor.png"
+    ],
+    "minecraft:dandelion": [
+      "/img/items/minecraft__block__dandelion.png"
+    ],
+    "minecraft:dark_oak_log": [
+      "/img/items/model__minecraft_dark_oak_log.png"
+    ],
+    "minecraft:dark_oak_slab": [
+      "/img/items/model__minecraft_dark_oak_slab.png"
+    ],
+    "minecraft:dark_oak_trapdoor": [
+      "/img/items/model__minecraft_dark_oak_trapdoor.png"
+    ],
+    "minecraft:dark_oak_wood": [
+      "/img/items/model__minecraft_dark_oak_wood.png"
+    ],
+    "minecraft:diamond": [
+      "/img/items/minecraft__item__diamond.png"
+    ],
+    "minecraft:dried_kelp": [
+      "/img/items/minecraft__item__dried_kelp.png"
+    ],
+    "minecraft:egg": [
+      "/img/items/minecraft__item__egg.png"
+    ],
+    "minecraft:emerald": [
+      "/img/items/minecraft__item__emerald.png"
+    ],
+    "minecraft:end_stone": [
+      "/img/items/model__minecraft_end_stone.png"
+    ],
+    "minecraft:ender_pearl": [
+      "/img/items/minecraft__item__ender_pearl.png"
+    ],
+    "minecraft:flint": [
+      "/img/items/minecraft__item__flint.png"
+    ],
+    "minecraft:glass_bottle": [
+      "/img/items/minecraft__item__glass_bottle.png"
+    ],
+    "minecraft:glow_berries": [
+      "/img/items/minecraft__item__glow_berries.png"
+    ],
+    "minecraft:gold_ingot": [
+      "/img/items/minecraft__item__gold_ingot.png"
+    ],
+    "minecraft:golden_carrot": [
+      "/img/items/minecraft__item__golden_carrot.png"
+    ],
+    "minecraft:gravel": [
+      "/img/items/model__minecraft_gravel.png"
+    ],
+    "minecraft:green_dye": [
+      "/img/items/minecraft__item__green_dye.png"
+    ],
+    "minecraft:hanging_roots": [
+      "/img/items/minecraft__block__hanging_roots.png"
+    ],
+    "minecraft:hay_block": [
+      "/img/items/model__minecraft_hay_block.png"
+    ],
+    "minecraft:honey_block": [
+      "/img/items/model__minecraft_honey_block.png"
+    ],
+    "minecraft:honey_bottle": [
+      "/img/items/minecraft__item__honey_bottle.png"
+    ],
+    "minecraft:ice": [
+      "/img/items/model__minecraft_ice.png"
+    ],
+    "minecraft:ink_sac": [
+      "/img/items/minecraft__item__ink_sac.png"
+    ],
+    "minecraft:iron_axe": [
+      "/img/items/minecraft__item__iron_axe.png"
+    ],
+    "minecraft:iron_ingot": [
+      "/img/items/minecraft__item__iron_ingot.png"
+    ],
+    "minecraft:iron_nugget": [
+      "/img/items/minecraft__item__iron_nugget.png"
+    ],
+    "minecraft:iron_shovel": [
+      "/img/items/minecraft__item__iron_shovel.png"
+    ],
+    "minecraft:jungle_log": [
+      "/img/items/model__minecraft_jungle_log.png"
+    ],
+    "minecraft:jungle_slab": [
+      "/img/items/model__minecraft_jungle_slab.png"
+    ],
+    "minecraft:jungle_trapdoor": [
+      "/img/items/model__minecraft_jungle_trapdoor.png"
+    ],
+    "minecraft:jungle_wood": [
+      "/img/items/model__minecraft_jungle_wood.png"
+    ],
+    "minecraft:kelp": [
+      "/img/items/minecraft__item__kelp.png"
+    ],
+    "minecraft:lapis_lazuli": [
+      "/img/items/minecraft__item__lapis_lazuli.png"
+    ],
+    "minecraft:light_blue_dye": [
+      "/img/items/minecraft__item__light_blue_dye.png"
+    ],
+    "minecraft:light_gray_dye": [
+      "/img/items/minecraft__item__light_gray_dye.png"
+    ],
+    "minecraft:lily_of_the_valley": [
+      "/img/items/minecraft__block__lily_of_the_valley.png"
+    ],
+    "minecraft:lime_dye": [
+      "/img/items/minecraft__item__lime_dye.png"
+    ],
+    "minecraft:magenta_dye": [
+      "/img/items/minecraft__item__magenta_dye.png"
+    ],
+    "minecraft:mangrove_log": [
+      "/img/items/model__minecraft_mangrove_log.png"
+    ],
+    "minecraft:mangrove_slab": [
+      "/img/items/model__minecraft_mangrove_slab.png"
+    ],
+    "minecraft:mangrove_trapdoor": [
+      "/img/items/model__minecraft_mangrove_trapdoor.png"
+    ],
+    "minecraft:mangrove_wood": [
+      "/img/items/model__minecraft_mangrove_wood.png"
+    ],
+    "minecraft:melon": [
+      "/img/items/model__minecraft_melon.png"
+    ],
+    "minecraft:melon_seeds": [
+      "/img/items/minecraft__item__melon_seeds.png"
+    ],
+    "minecraft:melon_slice": [
+      "/img/items/minecraft__item__melon_slice.png"
+    ],
+    "minecraft:milk_bucket": [
+      "/img/items/minecraft__item__milk_bucket.png"
+    ],
+    "minecraft:mutton": [
+      "/img/items/minecraft__item__mutton.png"
+    ],
+    "minecraft:nautilus_shell": [
+      "/img/items/minecraft__item__nautilus_shell.png"
+    ],
+    "minecraft:netherite_ingot": [
+      "/img/items/minecraft__item__netherite_ingot.png"
+    ],
+    "minecraft:oak_log": [
+      "/img/items/model__minecraft_oak_log.png"
+    ],
+    "minecraft:oak_slab": [
+      "/img/items/model__minecraft_oak_slab.png"
+    ],
+    "minecraft:oak_trapdoor": [
+      "/img/items/model__minecraft_oak_trapdoor.png"
+    ],
+    "minecraft:oak_wood": [
+      "/img/items/model__minecraft_oak_wood.png"
+    ],
+    "minecraft:orange_dye": [
+      "/img/items/minecraft__item__orange_dye.png"
+    ],
+    "minecraft:orange_tulip": [
+      "/img/items/minecraft__block__orange_tulip.png"
+    ],
+    "minecraft:oxeye_daisy": [
+      "/img/items/minecraft__block__oxeye_daisy.png"
+    ],
+    "minecraft:pink_dye": [
+      "/img/items/minecraft__item__pink_dye.png"
+    ],
+    "minecraft:pink_tulip": [
+      "/img/items/minecraft__block__pink_tulip.png"
+    ],
+    "minecraft:popped_chorus_fruit": [
+      "/img/items/minecraft__item__popped_chorus_fruit.png"
+    ],
+    "minecraft:poppy": [
+      "/img/items/minecraft__block__poppy.png"
+    ],
+    "minecraft:porkchop": [
+      "/img/items/minecraft__item__porkchop.png"
+    ],
+    "minecraft:potato": [
+      "/img/items/minecraft__item__potato.png"
+    ],
+    "minecraft:potion": [
+      "/img/items/minecraft__item__potion.png"
+    ],
+    "minecraft:pufferfish": [
+      "/img/items/minecraft__item__pufferfish.png"
+    ],
+    "minecraft:pumpkin": [
+      "/img/items/model__minecraft_pumpkin.png"
+    ],
+    "minecraft:pumpkin_pie": [
+      "/img/items/minecraft__item__pumpkin_pie.png"
+    ],
+    "minecraft:pumpkin_seeds": [
+      "/img/items/minecraft__item__pumpkin_seeds.png"
+    ],
+    "minecraft:purple_dye": [
+      "/img/items/minecraft__item__purple_dye.png"
+    ],
+    "minecraft:rabbit": [
+      "/img/items/minecraft__item__rabbit.png"
+    ],
+    "minecraft:red_dye": [
+      "/img/items/minecraft__item__red_dye.png"
+    ],
+    "minecraft:red_mushroom": [
+      "/img/items/minecraft__block__red_mushroom.png"
+    ],
+    "minecraft:red_tulip": [
+      "/img/items/minecraft__block__red_tulip.png"
+    ],
+    "minecraft:rotten_flesh": [
+      "/img/items/minecraft__item__rotten_flesh.png"
+    ],
+    "minecraft:salmon": [
+      "/img/items/minecraft__item__salmon.png"
+    ],
+    "minecraft:sea_pickle": [
+      "/img/items/minecraft__item__sea_pickle.png"
+    ],
+    "minecraft:seagrass": [
+      "/img/items/minecraft__item__seagrass.png"
+    ],
+    "minecraft:shulker_shell": [
+      "/img/items/minecraft__item__shulker_shell.png"
+    ],
+    "minecraft:slime_ball": [
+      "/img/items/minecraft__item__slime_ball.png"
+    ],
+    "minecraft:slime_block": [
+      "/img/items/model__minecraft_slime_block.png"
+    ],
+    "minecraft:spruce_log": [
+      "/img/items/model__minecraft_spruce_log.png"
+    ],
+    "minecraft:spruce_slab": [
+      "/img/items/model__minecraft_spruce_slab.png"
+    ],
+    "minecraft:spruce_trapdoor": [
+      "/img/items/model__minecraft_spruce_trapdoor.png"
+    ],
+    "minecraft:spruce_wood": [
+      "/img/items/model__minecraft_spruce_wood.png"
+    ],
+    "minecraft:stick": [
+      "/img/items/minecraft__item__stick.png"
+    ],
+    "minecraft:string": [
+      "/img/items/minecraft__item__string.png"
+    ],
+    "minecraft:stripped_acacia_log": [
+      "/img/items/model__minecraft_stripped_acacia_log.png"
+    ],
+    "minecraft:stripped_acacia_wood": [
+      "/img/items/model__minecraft_stripped_acacia_wood.png"
+    ],
+    "minecraft:stripped_bamboo_block": [
+      "/img/items/model__minecraft_stripped_bamboo_block.png"
+    ],
+    "minecraft:stripped_birch_log": [
+      "/img/items/model__minecraft_stripped_birch_log.png"
+    ],
+    "minecraft:stripped_birch_wood": [
+      "/img/items/model__minecraft_stripped_birch_wood.png"
+    ],
+    "minecraft:stripped_cherry_log": [
+      "/img/items/model__minecraft_stripped_cherry_log.png"
+    ],
+    "minecraft:stripped_cherry_wood": [
+      "/img/items/model__minecraft_stripped_cherry_wood.png"
+    ],
+    "minecraft:stripped_crimson_hyphae": [
+      "/img/items/model__minecraft_stripped_crimson_hyphae.png"
+    ],
+    "minecraft:stripped_crimson_stem": [
+      "/img/items/model__minecraft_stripped_crimson_stem.png"
+    ],
+    "minecraft:stripped_dark_oak_log": [
+      "/img/items/model__minecraft_stripped_dark_oak_log.png"
+    ],
+    "minecraft:stripped_dark_oak_wood": [
+      "/img/items/model__minecraft_stripped_dark_oak_wood.png"
+    ],
+    "minecraft:stripped_jungle_log": [
+      "/img/items/model__minecraft_stripped_jungle_log.png"
+    ],
+    "minecraft:stripped_jungle_wood": [
+      "/img/items/model__minecraft_stripped_jungle_wood.png"
+    ],
+    "minecraft:stripped_mangrove_log": [
+      "/img/items/model__minecraft_stripped_mangrove_log.png"
+    ],
+    "minecraft:stripped_mangrove_wood": [
+      "/img/items/model__minecraft_stripped_mangrove_wood.png"
+    ],
+    "minecraft:stripped_oak_log": [
+      "/img/items/model__minecraft_stripped_oak_log.png"
+    ],
+    "minecraft:stripped_oak_wood": [
+      "/img/items/model__minecraft_stripped_oak_wood.png"
+    ],
+    "minecraft:stripped_spruce_log": [
+      "/img/items/model__minecraft_stripped_spruce_log.png"
+    ],
+    "minecraft:stripped_spruce_wood": [
+      "/img/items/model__minecraft_stripped_spruce_wood.png"
+    ],
+    "minecraft:stripped_warped_hyphae": [
+      "/img/items/model__minecraft_stripped_warped_hyphae.png"
+    ],
+    "minecraft:stripped_warped_stem": [
+      "/img/items/model__minecraft_stripped_warped_stem.png"
+    ],
+    "minecraft:sugar": [
+      "/img/items/minecraft__item__sugar.png"
+    ],
+    "minecraft:sweet_berries": [
+      "/img/items/minecraft__item__sweet_berries.png"
+    ],
+    "minecraft:terracotta": [
+      "/img/items/model__minecraft_terracotta.png"
+    ],
+    "minecraft:torchflower": [
+      "/img/items/minecraft__block__torchflower.png"
+    ],
+    "minecraft:torchflower_seeds": [
+      "/img/items/minecraft__item__torchflower_seeds.png"
+    ],
+    "minecraft:tropical_fish": [
+      "/img/items/minecraft__item__tropical_fish.png"
+    ],
+    "minecraft:turtle_scute": [
+      "/img/items/minecraft__item__turtle_scute.png"
+    ],
+    "minecraft:warped_fungus": [
+      "/img/items/minecraft__block__warped_fungus.png"
+    ],
+    "minecraft:warped_hyphae": [
+      "/img/items/model__minecraft_warped_hyphae.png"
+    ],
+    "minecraft:warped_slab": [
+      "/img/items/model__minecraft_warped_slab.png"
+    ],
+    "minecraft:warped_stem": [
+      "/img/items/model__minecraft_warped_stem.png"
+    ],
+    "minecraft:warped_trapdoor": [
+      "/img/items/model__minecraft_warped_trapdoor.png"
+    ],
+    "minecraft:water_bucket": [
+      "/img/items/minecraft__item__water_bucket.png"
+    ],
+    "minecraft:wet_sponge": [
+      "/img/items/model__minecraft_wet_sponge.png"
+    ],
+    "minecraft:wheat": [
+      "/img/items/minecraft__item__wheat.png"
+    ],
+    "minecraft:wheat_seeds": [
+      "/img/items/minecraft__item__wheat_seeds.png"
+    ],
+    "minecraft:white_dye": [
+      "/img/items/minecraft__item__white_dye.png"
+    ],
+    "minecraft:white_tulip": [
+      "/img/items/minecraft__block__white_tulip.png"
+    ],
+    "minecraft:wind_charge": [
+      "/img/items/minecraft__item__wind_charge.png"
+    ],
+    "minecraft:wither_rose": [
+      "/img/items/minecraft__block__wither_rose.png"
+    ],
+    "minecraft:wooden_shovel": [
+      "/img/items/minecraft__item__wooden_shovel.png"
+    ],
+    "minecraft:yellow_dye": [
+      "/img/items/minecraft__item__yellow_dye.png"
+    ],
+    "xienong:bisque": [
+      "/img/items/xienong__item__bisque.png"
+    ],
+    "xienong:can": [
+      "/img/items/xienong__item__can.png"
+    ],
+    "xienong:clam": [
+      "/img/items/xienong__item__clam.png"
+    ],
+    "xienong:clam_bake": [
+      "/img/items/xienong__item__clam_bake.png"
+    ],
+    "xienong:clam_barrel": [
+      "/img/items/model__xienong_clam_barrel.png"
+    ],
+    "xienong:clam_chowder": [
+      "/img/items/xienong__item__clam_chowder.png"
+    ],
+    "xienong:clam_meat": [
+      "/img/items/xienong__item__clam_meat.png"
+    ],
+    "xienong:clawster": [
+      "/img/items/xienong__item__clawster.png"
+    ],
+    "xienong:clawster_barrel": [
+      "/img/items/model__xienong_clawster_barrel.png"
+    ],
+    "xienong:coconut": [
+      "/img/items/xienong__item__coconut.png"
+    ],
+    "xienong:coconut_block": [
+      "/img/items/model__xienong_coconut_block.png"
+    ],
+    "xienong:coconut_crate": [
+      "/img/items/model__xienong_coconut_crate.png"
+    ],
+    "xienong:coconut_halve": [
+      "/img/items/xienong__item__coconut_halve.png"
+    ],
+    "xienong:coconut_helmet": [
+      "/img/items/minecraft__item__leather_helmet.png"
+    ],
+    "xienong:coconut_leaves": [
+      "/img/items/model__xienong_coconut_leaves.png"
+    ],
+    "xienong:coconut_log": [
+      "/img/items/model__xienong_coconut_log.png"
+    ],
+    "xienong:coconut_milk": [
+      "/img/items/xienong__item__coconut_milk.png"
+    ],
+    "xienong:coconut_planks": [
+      "/img/items/model__xienong_coconut_planks.png"
+    ],
+    "xienong:coconut_pudding": [
+      "/img/items/xienong__item__coconut_pudding.png"
+    ],
+    "xienong:coconut_sapling": [
+      "/img/items/model__xienong_coconut_sapling.png"
+    ],
+    "xienong:cod_barrel": [
+      "/img/items/model__xienong_cod_barrel.png"
+    ],
+    "xienong:cooked_clam_meat": [
+      "/img/items/xienong__item__cooked_clam_meat.png"
+    ],
+    "xienong:cooked_clawster": [
+      "/img/items/xienong__item__cooked_clawster.png"
+    ],
+    "xienong:cooked_crab": [
+      "/img/items/xienong__item__cooked_crab.png"
+    ],
+    "xienong:cooked_glow_squid_tentacles": [
+      "/img/items/xienong__item__cooked_glow_squid_tentacles.png"
+    ],
+    "xienong:cooked_pufferfish_slice": [
+      "/img/items/xienong__item__cooked_pufferfish_slice.png"
+    ],
+    "xienong:cooked_shrimp": [
+      "/img/items/xienong__item__cooked_shrimp.png"
+    ],
+    "xienong:cooked_squid_tentacles": [
+      "/img/items/xienong__item__cooked_squid_tentacles.png"
+    ],
+    "xienong:cooked_tropical_fish": [
+      "/img/items/xienong__item__cooked_tropical_fish.png"
+    ],
+    "xienong:cooked_tropical_fish_slice": [
+      "/img/items/xienong__item__cooked_tropical_fish_slice.png"
+    ],
+    "xienong:crab": [
+      "/img/items/xienong__item__crab.png"
+    ],
+    "xienong:crab_barrel": [
+      "/img/items/model__xienong_crab_barrel.png"
+    ],
+    "xienong:crab_bucket": [
+      "/img/items/xienong__item__crab_bucket.png"
+    ],
+    "xienong:crab_cakes": [
+      "/img/items/xienong__item__crab_cakes.png"
+    ],
+    "xienong:crab_claw": [
+      "/img/items/xienong__item__crab_claw.png"
+    ],
+    "xienong:crab_legs": [
+      "/img/items/xienong__item__crab_legs.png"
+    ],
+    "xienong:crab_trap": [
+      "/img/items/model__xienong_crab_trap.png"
+    ],
+    "xienong:crab_trap_dry": [
+      "/img/items/model__xienong_crab_trap_dry.png"
+    ],
+    "xienong:fish_bones": [
+      "/img/items/xienong__item__fish_bones.png"
+    ],
+    "xienong:fish_plaque": [
+      "/img/items/model__xienong_fish_plaque.png"
+    ],
+    "xienong:fish_stick": [
+      "/img/items/xienong__item__fish_stick.png"
+    ],
+    "xienong:frog_leg_barrel": [
+      "/img/items/model__xienong_frog_leg_barrel.png"
+    ],
+    "xienong:glow_squid_barrel": [
+      "/img/items/model__xienong_glow_squid_barrel.png"
+    ],
+    "xienong:jar_of_pickles": [
+      "/img/items/xienong__item__jar_of_pickles.png"
+    ],
+    "xienong:kelp_shake": [
+      "/img/items/xienong__item__kelp_shake.png"
+    ],
+    "xienong:lanternfish_barrel": [
+      "/img/items/model__xienong_lanternfish_barrel.png"
+    ],
+    "xienong:nautilus_shell_block": [
+      "/img/items/model__xienong_nautilus_shell_block.png"
+    ],
+    "xienong:pearl": [
+      "/img/items/xienong__item__pearl.png"
+    ],
+    "xienong:pearl_block": [
+      "/img/items/model__xienong_pearl_block.png"
+    ],
+    "xienong:pearl_necklace": [
+      "/img/items/xienong__item__pearl_necklace.png"
+    ],
+    "xienong:pufferfish_barrel": [
+      "/img/items/model__xienong_pufferfish_barrel.png"
+    ],
+    "xienong:pufferfish_slice": [
+      "/img/items/xienong__item__pufferfish_slice.png"
+    ],
+    "xienong:raw_clam_meat": [
+      "/img/items/xienong__item__raw_clam_meat.png"
+    ],
+    "xienong:raw_frog_leg": [
+      "/img/items/xienong__item__raw_frog_leg.png"
+    ],
+    "xienong:raw_glow_squid_tentacles": [
+      "/img/items/xienong__item__raw_glow_squid_tentacles.png"
+    ],
+    "xienong:raw_squid_tentacles": [
+      "/img/items/xienong__item__raw_squid_tentacles.png"
+    ],
+    "xienong:salmon_barrel": [
+      "/img/items/model__xienong_salmon_barrel.png"
+    ],
+    "xienong:scute_block": [
+      "/img/items/model__xienong_scute_block.png"
+    ],
+    "xienong:sea_pickle_crate": [
+      "/img/items/model__xienong_sea_pickle_crate.png"
+    ],
+    "xienong:sea_pickle_juice": [
+      "/img/items/xienong__item__sea_pickle_juice.png"
+    ],
+    "xienong:seafood_gumbo": [
+      "/img/items/xienong__item__seafood_gumbo.png"
+    ],
+    "xienong:seashells": [
+      "/img/items/model__xienong_seashells.png"
+    ],
+    "xienong:shrimp": [
+      "/img/items/xienong__item__shrimp.png"
+    ],
+    "xienong:shrimp_barrel": [
+      "/img/items/model__xienong_shrimp_barrel.png"
+    ],
+    "xienong:shrimp_fried_rice": [
+      "/img/items/xienong__item__shrimp_fried_rice.png"
+    ],
+    "xienong:shrimp_skewer": [
+      "/img/items/xienong__item__shrimp_skewer.png"
+    ],
+    "xienong:squid_barrel": [
+      "/img/items/model__xienong_squid_barrel.png"
+    ],
+    "xienong:squid_kebab": [
+      "/img/items/xienong__item__squid_kebab.png"
+    ],
+    "xienong:stuffed_nautilus_shell": [
+      "/img/items/xienong__item__stuffed_nautilus_shell.png"
+    ],
+    "xienong:surf_and_turf": [
+      "/img/items/xienong__item__surf_and_turf.png"
+    ],
+    "xienong:tropical_fish_barrel": [
+      "/img/items/model__xienong_tropical_fish_barrel.png"
+    ],
+    "xienong:tropical_fish_slice": [
+      "/img/items/xienong__item__tropical_fish_slice.png"
+    ]
+  },
+  "tags": {
+    "#minecraft:planks": [
+      "/img/items/model__minecraft_oak_planks.png",
+      "/img/items/model__minecraft_spruce_planks.png",
+      "/img/items/model__minecraft_birch_planks.png",
+      "/img/items/model__minecraft_jungle_planks.png",
+      "/img/items/model__minecraft_acacia_planks.png",
+      "/img/items/model__minecraft_dark_oak_planks.png"
+    ],
+    "#minecraft:wooden_slabs": [
+      "/img/items/model__minecraft_oak_slab.png",
+      "/img/items/model__minecraft_spruce_slab.png",
+      "/img/items/model__minecraft_birch_slab.png",
+      "/img/items/model__minecraft_jungle_slab.png",
+      "/img/items/model__minecraft_acacia_slab.png",
+      "/img/items/model__minecraft_dark_oak_slab.png"
+    ]
+  }
+}

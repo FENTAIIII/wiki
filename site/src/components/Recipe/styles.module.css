@@ -1,0 +1,376 @@
+.card {
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  background: var(--ifm-card-background-color);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.85rem;
+}
+
+.title {
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+.badge {
+  font-size: 0.72rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 999px;
+  background: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+  white-space: nowrap;
+}
+
+.recipeId {
+  font-family: var(--ifm-font-family-monospace);
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 3rem);
+  grid-template-rows: repeat(3, 3rem);
+  gap: 3px;
+}
+
+.shapelessGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  max-width: 12.5rem;
+}
+
+.cell {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  cursor: default;
+}
+
+/* 多候选材料的数量角标。 */
+.cellBadge {
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  font-size: 0.62rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+  text-shadow: 0 0 2px var(--ifm-background-color);
+  pointer-events: none;
+}
+
+.cellFilled {
+  background: var(--ifm-color-primary-lightest);
+  border-color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-emphasis-900);
+}
+
+.cellEmpty {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--ifm-color-emphasis-100),
+    var(--ifm-color-emphasis-100) 4px,
+    var(--ifm-color-emphasis-200) 4px,
+    var(--ifm-color-emphasis-200) 8px
+  );
+}
+
+.arrow {
+  font-size: 1.6rem;
+  color: var(--ifm-color-emphasis-600);
+  user-select: none;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.resultCell {
+  position: relative;
+  width: 3.6rem;
+  height: 3.6rem;
+  border: 2px solid var(--ifm-color-success);
+  border-radius: 6px;
+  background: var(--ifm-color-success-contrast-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+
+/* 产出数量角标，仿游戏内右下角堆叠数字。 */
+.resultBadge {
+  position: absolute;
+  right: 3px;
+  bottom: 1px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ifm-font-color-base);
+  text-shadow: 0 0 3px var(--ifm-background-color);
+  pointer-events: none;
+}
+
+.resultName {
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-700);
+  max-width: 6rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* 材料清单：格子内只有图标，名称在这里列出。 */
+.summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.85rem;
+  margin-top: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.summaryEntry {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.summaryCount {
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* 可追溯材料：清掉按钮默认外观，只保留一个轻量的可点提示 */
+.summaryLookup {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.1rem 0.35rem;
+  margin: -0.1rem -0.35rem;
+  background: none;
+  font: inherit;
+  color: var(--ifm-link-color);
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.summaryLookup:hover,
+.summaryLookup:focus-visible {
+  border-color: var(--ifm-color-emphasis-300);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.summaryActive {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-emphasis-100);
+}
+
+.lookupMark {
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* 就地展开的子配方区：左侧竖线表示它属于上一层配方 */
+.lookupPanel {
+  margin-top: 0.9rem;
+  padding-left: 0.85rem;
+  border-left: 3px solid var(--ifm-color-primary-lighter);
+}
+
+.lookupHead {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.lookupClose {
+  appearance: none;
+  margin-left: auto;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  padding: 0.1rem 0.5rem;
+  background: none;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+}
+
+.lookupClose:hover,
+.lookupClose:focus-visible {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.lookupPanel .card {
+  margin-bottom: 0.75rem;
+}
+
+.lookupPanel .card:last-child {
+  margin-bottom: 0;
+}
+
+.altEntry {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.altEntry:not(:last-child)::after {
+  content: '/';
+  margin-left: 0.35rem;
+  color: var(--ifm-color-emphasis-500);
+}
+
+.meta {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.alternatives {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.alternatives ul {
+  margin: 0.2rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.search {
+  flex: 1 1 14rem;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.9rem;
+}
+
+.select {
+  padding: 0.45rem 0.7rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+  font-size: 0.9rem;
+}
+
+.count {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.empty {
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+  border: 1px dashed var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+}
+
+/* GUI 视图容器：背景贴图 + 右侧机制说明 */
+.guiWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.guiNotes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+}
+
+.note {
+  font-size: 12px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.noteInline {
+  margin-left: 6px;
+  font-size: 12px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* 超出 GUI 产出槽的额外产出 */
+.overflow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  margin-top: 8px;
+  font-size: 13px;
+}
+
+/* 捕蟹笼机制块 */
+.mechanics {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.mechanicsRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.biomes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.biome {
+  font-size: 11px;
+}
+
+.poolTable {
+  width: auto;
+  margin-top: 6px;
+  font-size: 12px;
+}

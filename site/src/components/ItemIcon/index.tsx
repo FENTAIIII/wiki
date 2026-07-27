@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import itemData from '@site/src/data/items.json';
 import styles from './styles.module.css';
 
@@ -70,6 +71,8 @@ export function ItemIcon({id, size = 32, alt}: Props) {
 
   const layers = members ? [members[frame % members.length]] : ICONS[id];
   const label = alt ?? id;
+  // 贴图路径来自数据 JSON，是运行时拼出来的，必须补上站点 baseUrl 才能在项目页下取到。
+  const {withBaseUrl} = useBaseUrlUtils();
   // 有任一层是多帧贴图才需要按刻推进，静态图标不订阅计时器。
   const animated = !!layers?.some((layer) => typeof layer !== 'string' && layer.frames > 1);
   const ticks = useTicks(animated);
@@ -109,7 +112,7 @@ export function ItemIcon({id, size = 32, alt}: Props) {
             className={styles.layer}
             style={{
               zIndex: index,
-              backgroundImage: `url(${url})`,
+              backgroundImage: `url(${withBaseUrl(url)})`,
               backgroundSize: `${size}px ${size * frames}px`,
               backgroundPosition: `0 ${-current * size}px`,
             }}

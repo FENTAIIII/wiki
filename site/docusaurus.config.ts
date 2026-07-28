@@ -12,8 +12,8 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://nsg.pages.dev',
-  baseUrl: '/',
+  url: 'https://q761070659.github.io',
+  baseUrl: '/NSG/',
 
   organizationName: 'q761070659',
   projectName: 'NSG',

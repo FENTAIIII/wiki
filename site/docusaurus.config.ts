@@ -49,6 +49,21 @@ const config: Config = {
     ],
   ],
 
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        // 文档挂在站点根路径（routeBasePath: '/'），索引路径需要跟着设为 '/'
+        docsRouteBasePath: '/',
+        indexBlog: false,
+        // 中文分词
+        language: ['zh', 'en'],
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
@@ -59,6 +74,7 @@ const config: Config = {
         {type: 'docSidebar', sidebarId: 'wikiSidebar', position: 'left', label: '文档'},
         {to: '/recipes/crafting', label: '合成表', position: 'left'},
         {to: '/stations/overview', label: '设备使用', position: 'left'},
+        {type: 'search', position: 'right'},
       ],
     },
     footer: {

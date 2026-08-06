@@ -5,46 +5,41 @@ on:
     branches: [main]
   workflow_dispatch:
 
-# GITHUB_TOKEN 仅授予部署 Pages 所需的最小权限
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
 
-# 同时只跑一个部署，新的推送取消排队中的旧任务
 concurrency:
-  group: gh-pages-publish
+  group: pages
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     defaults:
       run:
         working-directory: site
     steps:
       - uses: actions/checkout@v7
-
       - uses: actions/setup-node@v7
         with:
           node-version: 24
           cache: npm
           cache-dependency-path: site/package-lock.json
-
       - name: 安装依赖
         run: npm ci
-
       - name: 构建站点
         run: npm run build
-
-      - name: 发布到 gh-pages 分支
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          cd build
-          git init
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add --all
-          git commit -m "Deploy ${GITHUB_SHA}"
-          git branch -M gh-pages
-          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
-          git push --force origin gh-pages
+      - name: 配置 GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site/build
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

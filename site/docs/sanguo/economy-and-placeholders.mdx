@@ -1,0 +1,98 @@
+---
+title: 经济、统计与排行榜
+---
+
+# 经济、统计与排行榜
+
+休闲桌不需要 Vault、PlayerPoints 或 PlaceholderAPI。
+
+## 启用单桌经济
+
+Vault：
+
+```text
+/sanguo economy <桌名> on 1.0 vault
+```
+
+PlayerPoints：
+
+```text
+/sanguo economy <桌名> on 1.0 playerpoints
+```
+
+关闭：
+
+```text
+/sanguo economy <桌名> off
+```
+
+经济牌局必须全是真人，不能用 AI 补位。
+
+## 余额要求
+
+加入经济桌前，余额至少要有：
+
+```text
+全局游玩费 + 2 × 基础赌注 × 单桌倍率
+```
+
+系统会先托管资金，正常结束后按胜方结算。系统取消、启动失败或正常停服会处理尚未确认
+的退款。
+
+## 不要删除交易日志
+
+文件：
+
+```text
+plugins/Sanguo/wager-transactions.log
+```
+
+如果启动时提示经济被冻结，说明发现未完成交易或没有 `MATCH_CLOSED` 的牌局。先对照
+经济插件流水人工核对，不要直接删除日志或反复重启。
+
+## 统计
+
+全部真人且正常完成的牌局写入：
+
+```text
+plugins/Sanguo/stats.yml
+plugins/Sanguo/stats.yml.bak
+```
+
+含 AI 的练习局、强停和系统取消不计排位胜负。
+
+## PlaceholderAPI
+
+安装 PlaceholderAPI 后无需下载 eCloud 扩展。常用个人变量：
+
+```text
+%sanguo_games%
+%sanguo_wins%
+%sanguo_losses%
+%sanguo_win_rate%
+%sanguo_rank%
+```
+
+模式前缀：
+
+```text
+doudizhu_
+identity5_
+identity8_
+```
+
+例如：
+
+```text
+%sanguo_identity5_wins%
+%sanguo_doudizhu_rank%
+```
+
+TOP 排行榜：
+
+```text
+%sanguo_top_1_name%
+%sanguo_top_1_wins%
+%sanguo_doudizhu_top_3_win_rate%
+%sanguo_identity8_top_10_games%
+```

@@ -1,42 +1,45 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 const sidebars: SidebarsConfig = {
-  wikiSidebar: [
-    'intro',
+  universeSidebar: [
     {
       type: 'category',
-      label: '合成表',
+      label: 'Sanguo · 三国杀',
       collapsed: false,
-      items: ['recipes/crafting', 'recipes/cooking', 'recipes/browser'],
-    },
-    {
-      type: 'category',
-      label: '设备使用方式',
-      collapsed: false,
+      link: {type: 'doc', id: 'sanguo/index'},
       items: [
-        'stations/overview',
-        'stations/stove',
-        'stations/cooking-pot',
-        'stations/skillet',
-        'stations/cutting-board',
-        'stations/cask',
-        'stations/stomping-basin',
+        'sanguo/installation',
+        'sanguo/quick-start',
+        'sanguo/player-guide',
+        'sanguo/modes-and-rules',
+        'sanguo/commands-and-permissions',
+        'sanguo/configuration',
+        'sanguo/economy-and-placeholders',
+        'sanguo/resources-and-audio',
+        'sanguo/troubleshooting',
+        'sanguo/faq',
       ],
     },
     {
       type: 'category',
-      label: '农耕与其他玩法',
-      items: ['farming/crops', 'farming/tools', 'farming/crabbing', 'farming/tea'],
-    },
-    {
-      type: 'category',
-      label: '参考资料',
-      items: ['items/catalog', 'advancements'],
-    },
-    {
-      type: 'category',
-      label: '管理员',
-      items: ['admin/commands', 'admin/config', 'admin/recipes-yml'],
+      label: 'doudizhu · 斗地主',
+      collapsed: true,
+      link: {type: 'doc', id: 'doudizhu/index'},
+      items: [
+        'doudizhu/Installation',
+        'doudizhu/Quick-Start',
+        'doudizhu/Player-Guide',
+        'doudizhu/Classic-Mode',
+        'doudizhu/Laizi-Mode',
+        'doudizhu/Commands-and-Permissions',
+        'doudizhu/Configuration',
+        'doudizhu/Economy-and-Vault',
+        'doudizhu/Placeholders-and-Leaderboards',
+        'doudizhu/Skins-and-Voice',
+        'doudizhu/Tables-and-UI',
+        'doudizhu/Troubleshooting',
+        'doudizhu/FAQ',
+      ],
     },
   ],
 };

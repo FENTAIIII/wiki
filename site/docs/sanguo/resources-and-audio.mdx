@@ -1,0 +1,61 @@
+---
+title: 资源包、BetterHUD 与声音
+---
+
+# 资源包、BetterHUD 与声音
+
+## CraftEngine
+
+交付包提供两个资源目录：
+
+| 目录 | 作用 |
+| --- | --- |
+| `noname-classic-identity` | 牌面、武将、身份和 UI 字形 |
+| `sanguo-classic-voice` | 对局音乐、出牌语音、技能语音、阵亡语音 |
+
+把它们合并到：
+
+```text
+plugins/CraftEngine/resources/
+```
+
+不要安装交付包以外的 CraftEngine JAR，也不要覆盖客户已有的整个 CraftEngine 文件夹。
+
+## BetterHUD
+
+BetterHUD 用来显示准星悬停说明。交付包中的：
+
+```text
+BetterHud/huds/
+BetterHud/layouts/
+BetterHud/texts/
+```
+
+分别合并到客户现有的 `plugins/BetterHud` 同名目录。
+
+Sanguo 会注册 12 个实时悬停占位符。离开牌桌后这些变量会清空，不会把上一张牌的说明
+留在屏幕上。
+
+## 声音包含什么
+
+- 对局背景音乐；
+- 男/女武将通用出牌语音；
+- 不同属性的杀；
+- 25 名经典武将的代表技能和阵亡语音；
+- Minecraft 原版扣血音效。
+
+标准黄盖的苦肉语音事件是：
+
+```text
+fentai_sanguo:general.huanggai.skill.kurou
+```
+
+## 有画面但没声音
+
+依次检查：
+
+1. 客户端是否接受并加载服务器资源包；
+2. `audio.enabled`、`music.enabled`、`voice.enabled` 是否为 `true`；
+3. 玩家是否在 `audio.radius` 范围内；
+4. Minecraft 的 VOICE、RECORDS、PLAYERS 音量是否被静音；
+5. CraftEngine 是否完整重建并分发了资源包。

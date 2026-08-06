@@ -3,23 +3,20 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: '农夫乐事 Wiki',
-  tagline: '农夫乐事 / 暖风丰年 / 末地乐事 整合内容指南',
-  favicon: 'img/favicon.ico',
+  title: '酚酞的桌游宇宙',
+  tagline: 'Minecraft 桌游插件的安装、玩法与管理指南',
 
-  // Docusaurus v4 未来标记，参见 https://docusaurus.io/blog/releases/3.10
   future: {
     v4: true,
   },
 
-  url: 'https://q761070659.github.io',
-  baseUrl: '/NSG/',
-
-  organizationName: 'q761070659',
-  projectName: 'NSG',
+  url: 'https://fentaiiii.github.io',
+  baseUrl: '/wiki/',
+  organizationName: 'FENTAIIII',
+  projectName: 'wiki',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
-
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'throw',
@@ -37,9 +34,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
-          // 文档结构较小，不显示"编辑此页"
-          editUrl: undefined,
+          routeBasePath: '/docs',
+          editUrl: 'https://github.com/FENTAIIII/wiki/edit/main/site/',
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
@@ -53,10 +50,8 @@ const config: Config = {
     [
       '@easyops-cn/docusaurus-search-local',
       {
-        // 文档挂在站点根路径（routeBasePath: '/'），索引路径需要跟着设为 '/'
-        docsRouteBasePath: '/',
+        docsRouteBasePath: '/docs',
         indexBlog: false,
-        // 中文分词
         language: ['zh', 'en'],
         hashed: true,
         highlightSearchTermsOnTargetPage: true,
@@ -65,44 +60,56 @@ const config: Config = {
   ],
 
   themeConfig: {
+    image: 'og.png',
     colorMode: {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: '农夫乐事 Wiki',
+      title: '酚酞的桌游宇宙',
       items: [
-        {type: 'docSidebar', sidebarId: 'wikiSidebar', position: 'left', label: '文档'},
-        {to: '/recipes/crafting', label: '合成表', position: 'left'},
-        {to: '/stations/overview', label: '设备使用', position: 'left'},
+        {to: '/docs/sanguo', label: '三国杀', position: 'left'},
+        {to: '/docs/doudizhu', label: '斗地主', position: 'left'},
+        {type: 'docSidebar', sidebarId: 'universeSidebar', label: '全部文档', position: 'left'},
         {type: 'search', position: 'right'},
+        {
+          href: 'https://github.com/FENTAIIII',
+          label: 'GitHub',
+          position: 'right',
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: '玩法',
+          title: '桌游 Wiki',
           items: [
-            {label: '快速上手', to: '/'},
-            {label: '合成表总览', to: '/recipes/crafting'},
-            {label: '设备使用', to: '/stations/overview'},
+            {label: 'Sanguo 三国杀', to: '/docs/sanguo'},
+            {label: 'doudizhu 斗地主', to: '/docs/doudizhu'},
           ],
         },
         {
-          title: '参考',
+          title: '常用入口',
           items: [
-            {label: '物品图鉴', to: '/items/catalog'},
-            {label: '成就一览', to: '/advancements'},
-            {label: '管理员指南', to: '/admin/commands'},
+            {label: '三国杀安装', to: '/docs/sanguo/installation'},
+            {label: '斗地主安装', to: '/docs/doudizhu/Installation'},
+            {label: '问题排查', to: '/docs/sanguo/troubleshooting'},
+          ],
+        },
+        {
+          title: '项目',
+          items: [
+            {label: 'FENTAIIII', href: 'https://github.com/FENTAIIII'},
+            {label: '本站源码', href: 'https://github.com/FENTAIIII/wiki'},
           ],
         },
       ],
-      copyright: '农夫乐事 Wiki · 数据来自 CraftEngine 配置与 NongStoveIgniter 插件源码',
+      copyright: `© ${new Date().getFullYear()} 酚酞的桌游宇宙`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['yaml', 'java'],
+      additionalLanguages: ['yaml', 'java', 'bash'],
     },
   } satisfies Preset.ThemeConfig,
 };

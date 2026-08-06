@@ -1,0 +1,172 @@
+---
+title: 小白安装教程
+description: 不解释路径原理，只告诉你每个文件夹放在哪里。
+---
+
+# 小白安装教程
+
+这页不要求你理解路径。下面所有路径都从**服务端根目录**开始算；服务端根目录就是
+能看到 `server.jar`、`paper.jar` 或启动脚本的那个文件夹。
+
+:::danger 先停服
+不要在服务器运行时覆盖插件文件。先正常关服，并备份整个 `plugins` 文件夹。
+:::
+
+## 第 1 步：确认服务端已经有这些东西
+
+必须有：
+
+- Java 21；
+- Paper 或 Purpur 1.21.11+；
+- Node.js 24+；
+- Chrome、Edge 或 Chromium；
+- CraftEngine；
+- BetterHUD 2.x；
+- GSit 或 CMI，二选一。
+
+不需要 `libs-arc-ui`。Vault、PlayerPoints、PlaceholderAPI 都是可选的。
+
+## 第 2 步：复制 Sanguo 本体
+
+打开交付 ZIP，找到：
+
+```text
+server-overlay/plugins/Sanguo-1.6.0.jar
+```
+
+把它复制到服务端：
+
+```text
+你的服务端/plugins/Sanguo-1.6.0.jar
+```
+
+## 第 3 步：建立固定的 Sanguo 文件夹
+
+在服务端 `plugins` 里面新建一个文件夹，名字必须是：
+
+```text
+Sanguo
+```
+
+然后把交付 ZIP 最外面的 `noname` 整个文件夹复制进去。
+
+复制完以后，必须能按这个顺序点到文件：
+
+```text
+你的服务端/
+└─ plugins/
+   └─ Sanguo/
+      └─ noname/
+         └─ dist/
+            └─ noname.js
+```
+
+:::warning 最容易放错的地方
+不是放进 `plugins/noname`，也不是放在桌面，更不要只复制 `dist`。
+正确位置就是 `plugins/Sanguo/noname/dist/noname.js`。
+:::
+
+## 第 4 步：放入配置文件
+
+在交付 ZIP 中找到：
+
+```text
+config-reference/Sanguo-default-config.yml
+```
+
+复制到刚才新建的 `plugins/Sanguo`，并改名为：
+
+```text
+config.yml
+```
+
+现在应该是：
+
+```text
+你的服务端/
+└─ plugins/
+   ├─ Sanguo-1.6.0.jar
+   └─ Sanguo/
+      ├─ config.yml
+      └─ noname/
+         └─ dist/
+            └─ noname.js
+```
+
+打开 `config.yml`，搜索 `noname-root`。这一行必须写成下面这样：
+
+```yaml
+noname-root: "noname"
+```
+
+只复制这一行即可，不要填写盘符、用户名、桌面路径或绝对路径。如果交付包里的这一行
+已经是 `"noname"`，什么也不用改。
+
+## 第 5 步：合并 CraftEngine 资源
+
+把 ZIP 中：
+
+```text
+server-overlay/plugins/CraftEngine/resources/
+```
+
+里面的两个文件夹复制到：
+
+```text
+你的服务端/plugins/CraftEngine/resources/
+```
+
+看到“合并文件夹”时选择合并。不要删除客户原来的整个 CraftEngine 文件夹。
+
+## 第 6 步：合并 BetterHUD 配置
+
+把 ZIP 中：
+
+```text
+server-overlay/plugins/BetterHud/
+```
+
+里面的 `huds`、`layouts`、`texts` 三个文件夹复制到：
+
+```text
+你的服务端/plugins/BetterHud/
+```
+
+同样只合并，不要删除原来的 BetterHUD 配置。
+
+## 第 7 步：完整启动
+
+现在启动服务器。第一次启动会稍慢，Sanguo 需要连接 Noname 和浏览器。
+
+看到类似下面三行就说明主要组件已连接：
+
+```text
+[Sanguo] Arc UI: 723 YAML, 200 layers, 523 elements
+[Sanguo] Noname rules runtime connected
+[Sanguo] BetterHud connected
+```
+
+如果出现红字，不要反复移动文件，直接去[按现象排障](./troubleshooting)。
+
+## 最终目录检查
+
+```text
+你的服务端/
+└─ plugins/
+   ├─ CraftEngine/
+   │  └─ resources/
+   │     ├─ noname-classic-identity/
+   │     └─ sanguo-classic-voice/
+   ├─ BetterHud/
+   │  ├─ huds/
+   │  ├─ layouts/
+   │  └─ texts/
+   ├─ Sanguo-1.6.0.jar
+   └─ Sanguo/
+      ├─ config.yml
+      └─ noname/
+         └─ dist/
+            └─ noname.js
+```
+
+目录对上以后，继续看[五分钟开第一桌](./quick-start)。

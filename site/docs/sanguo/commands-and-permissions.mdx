@@ -1,0 +1,71 @@
+---
+title: 命令与权限
+---
+
+# 命令与权限
+
+主命令是 `/sanguo`，别名是 `/sgs`。
+
+## 玩家命令
+
+| 命令 | 作用 |
+| --- | --- |
+| `/sanguo join [桌名]` | 加入指定或附近牌桌 |
+| `/sanguo leave` | 离开牌桌 |
+| `/sanguo trustee` | 进入托管 |
+| `/sanguo return` | 回到桌边并取消托管 |
+| `/sanguo urge` | 催促当前真人行动者 |
+
+这些命令使用 `sanguo.play`，默认所有玩家拥有。
+
+## 牌桌命令
+
+| 命令 | 权限 | 作用 |
+| --- | --- | --- |
+| `/sanguo create 〈模式〉 〈桌名〉` | `sanguo.table.create` | 在准星所指地板创建牌桌 |
+| `/sanguo ai 〈桌名〉` | `sanguo.table.ai` | 给等待中的桌增加一名 AI |
+| `/sanguo start 〈桌名〉` | `sanguo.table.start` | 手动开始坐满的牌桌 |
+| `/sanguo list` | 无额外权限 | 查看牌桌模式、人数、状态和坐标 |
+
+模式只能填写：
+
+```text
+doudizhu
+identity5
+identity8
+```
+
+## 管理命令
+
+| 命令 | 作用 |
+| --- | --- |
+| `/sanguo economy 〈桌名〉 〈on|off〉 [倍率] [vault|playerpoints]` | 设置单桌经济 |
+| `/sanguo stop 〈桌名〉` | 强制取消当前牌局 |
+| `/sanguo remove 〈桌名〉` | 删除没有进行中牌局和未结资金的牌桌 |
+| `/sanguo reload` | 重载配置、模板并重绘牌桌 |
+| `/sanguo holo` | 清理孤儿实体并恢复牌桌显示 |
+| `/sanguo preview 〈on|off〉` | 开关静态 UI 预览 |
+
+以上管理操作使用 `sanguo.admin`，默认仅 OP。
+
+## 权限汇总
+
+| 权限 | 默认 | 说明 |
+| --- | --- | --- |
+| `sanguo.play` | 所有人 | 加入、离开、托管、回桌、催促 |
+| `sanguo.table.create` | OP | 创建牌桌 |
+| `sanguo.table.ai` | 所有人 | 添加 AI |
+| `sanguo.table.start` | 所有人 | 手动开局 |
+| `sanguo.admin` | OP | 管理、重载、经济、修复显示 |
+| `sanguo.protection.bypass` | OP | 编辑受保护的牌桌方块 |
+| `sanguo.pack.standard` | 所有人 | 使用标准武将包 |
+| `sanguo.character.pack.standard` | 所有人 | 使用标准包武将 |
+| `sanguo.character.〈武将ID〉` | 按权限组 | 使用指定武将 |
+| `sanguo.*` | OP | 全部权限 |
+
+权限插件可以单独出售或禁用某个武将，例如：
+
+```text
+sanguo.character.huanggai
+sanguo.character.caocao
+```

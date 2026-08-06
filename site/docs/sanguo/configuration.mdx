@@ -1,0 +1,87 @@
+---
+title: 配置常用项
+---
+
+# 配置常用项
+
+配置文件：
+
+```text
+plugins/Sanguo/config.yml
+```
+
+第一次安装只需要确认 `noname-root`，不要一上来修改全部配置。
+
+## Noname 固定目录
+
+如果按本站教程把 Noname 放在 `plugins/Sanguo/noname`，配置写：
+
+```yaml
+rules:
+  noname-root: "noname"
+  node-command: "node"
+  browser: ""
+```
+
+- `node-command`：正常安装 Node.js 后保持 `node`。
+- `browser`：Windows 通常留空，插件会找 Chrome 或 Edge。
+- Linux 找不到 Chromium 时，才填写浏览器可执行文件的绝对路径。
+
+## 牌桌和座位
+
+```yaml
+table:
+  require-sit-provider: true
+
+player-session:
+  movement-policy: LOCKED
+```
+
+- `require-sit-provider: true`：正式服必须有 GSit 或 CMI。
+- `LOCKED`：入座后锁定位置，只能转头。
+- `TETHERED`：允许在牌桌附近移动，适合活动服。
+
+## 音乐和语音
+
+```yaml
+audio:
+  enabled: true
+  radius: 8.0
+  music:
+    enabled: true
+    volume: 0.35
+  voice:
+    enabled: true
+    volume: 1.0
+    pitch: 1.0
+```
+
+`radius` 是声音听众范围。玩家还要成功加载 CraftEngine 资源包，并且没有静音
+Minecraft 的 VOICE/PLAYERS/RECORDS 声音分类。
+
+## 决策时间
+
+普通操作默认 15 秒，无懈可击等快速响应默认 5 秒。倒计时结束后只托管当前事件，
+不会永久夺走玩家操作权。
+
+## 经济
+
+休闲服保持：
+
+```yaml
+economy:
+  enabled: false
+```
+
+需要收费或赌桌时再看[经济、统计与排行榜](./economy-and-placeholders)。
+
+## 修改后怎么生效
+
+优先完整重启。只改普通 Sanguo 配置时可以执行：
+
+```text
+/sanguo reload
+```
+
+CraftEngine、BetterHUD、资源包、Node 或浏览器相关改动建议完整重启，不要使用
+PlugMan 一类热卸载工具。

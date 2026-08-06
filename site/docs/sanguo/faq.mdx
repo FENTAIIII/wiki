@@ -1,0 +1,50 @@
+---
+title: 常见问题
+---
+
+# 常见问题
+
+## 客户只拿交付 ZIP 能不能直接开服？
+
+不能。ZIP 不包含 Java、Node.js、Chrome、CraftEngine、BetterHUD、GSit/CMI 本体。
+客户已有服务端还要满足[安装教程](./installation)列出的环境。
+
+## 需要 libs-arc-ui 吗？
+
+不需要。完整 UI 模板已经内置在 Sanguo JAR，首次启动会释放到
+`plugins/Sanguo/ui/noname`。
+
+## Noname 是网页客户端吗？
+
+交付包里的 Noname 是精简的无头规则运行时，只让服务端计算规则，不是让玩家开网页玩。
+
+## 为什么一定要把 Noname 放在 `plugins/Sanguo/noname`？
+
+这是本站统一采用的固定目录，目的是让所有客户使用同一个配置：
+
+```yaml
+noname-root: "noname"
+```
+
+照着放即可，不需要理解相对路径。
+
+## 可以没有 GSit/CMI 吗？
+
+正式服默认不可以。二选一安装即可；两者同时存在时优先 GSit。
+
+## 可以用 AI 开经济桌吗？
+
+不可以。含资金结算的桌必须全部由真人坐满。
+
+## 为什么 AI 局正常，多真人局更容易暴露问题？
+
+AI 在 Noname 内部直接执行；真人需要经过 Minecraft UI、网络选择和 Noname 决策桥。
+报告多人问题时务必写真人数量、座位和点击顺序。
+
+## 三国杀有牌皮商城吗？
+
+没有。Sanguo 的内容价值来自规则、武将、卡牌和后续资源包，不提供售卖牌皮功能。
+
+## 修改配置后能用 PlugMan 重载吗？
+
+不建议。涉及浏览器、Node、CraftEngine、BetterHUD 或资源包时完整重启服务器。

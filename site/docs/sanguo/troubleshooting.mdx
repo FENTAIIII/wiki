@@ -39,6 +39,73 @@ node --version
 Windows 安装 Chrome 或 Edge，`rules.browser` 先保持空字符串。Linux 面板服安装
 Chromium 后，在 `rules.browser` 填服务商提供的可执行文件路径。
 
+### 已找到浏览器但报错 `Chrome failed to start`
+
+这是 **Noname 后端的浏览器运行环境问题**，不是三国杀出牌逻辑问题。
+
+如果日志已经显示 Node.js 版本，并在随后出现：
+
+```text
+Error: Chrome failed to start
+Noname sidecar exited unexpectedly
+```
+
+说明 Node.js、`noname-root` 和 `dist/noname.js` 已经通过前置检查，但是
+Chrome 或 Edge 刚启动就退出了。
+
+#### Windows 解决方法
+
+1. 完整关闭服务端；
+2. 安装或修复最新版 64 位 Chrome，并手动打开一次后关闭；
+3. 打开 `plugins/Sanguo/config.yml`；
+4. 在 `rules` 下明确填写实际存在的浏览器路径；
+5. 完整重启服务端，不能只执行插件重载。
+
+Chrome 默认路径：
+
+```yaml
+rules:
+  browser: "C:/Program Files/Google/Chrome/Application/chrome.exe"
+```
+
+如果电脑只安装了 Edge，依次检查下面两个路径，填写实际存在的一个：
+
+```yaml
+rules:
+  browser: "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+```
+
+```yaml
+rules:
+  browser: "C:/Program Files/Microsoft/Edge/Application/msedge.exe"
+```
+
+建议在 YAML 中使用 `/`，避免 Windows 路径中的反斜杠被错误转义。
+
+#### 仍然无法启动
+
+在服务端电脑的 PowerShell 中执行：
+
+```powershell
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --version
+& "C:\Program Files\Google\Chrome\Application\chrome.exe" --headless=new --disable-gpu --remote-debugging-port=9222 --user-data-dir="$env:TEMP\sanguo-chrome-test" about:blank
+```
+
+如果使用 Edge，把命令开头替换成实际的 `msedge.exe` 路径。
+
+第二条命令如果立即退出或显示错误，检查：
+
+- 服务端运行账号是否有权写入系统临时目录；
+- 安全软件是否拦截无界面浏览器；
+- Chrome/Edge 是否安装完整、版本是否过旧；
+- Windows 系统是否仍受当前浏览器版本支持。
+
+向维护人员反馈时，请提供这两条命令的完整输出、Windows 版本、浏览器版本和
+`rules.browser` 的实际填写值。不要发送账号密码或其他敏感配置。
+
+日志中的 `%E6%...` 等内容只是中文路径经过 URL 编码后的正常显示，不是乱码，
+也不是此错误的直接原因。此时不需要重装 Java、Node.js 或 Sanguo。
+
 ## 玩家无法加入
 
 检查：
